@@ -1,0 +1,11 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    height: 100vh;
+    margin: 0;
+}
+
+blockquote {
+    font-size: 14px !important;
+}
