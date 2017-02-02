@@ -1,3 +1,0 @@
-Install eJabberd XMPP Server
-----------------------------
-
