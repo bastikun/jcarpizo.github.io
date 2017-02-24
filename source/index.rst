@@ -8,7 +8,6 @@ Welcome to Code Script's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    lamp
    virtual-host
