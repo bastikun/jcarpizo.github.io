@@ -2,157 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/doctrees/ejabberd.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/doctrees/index.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/doctrees/lamp.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/doctrees/virtual-host.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/.buildinfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/.nojekyll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_sources/ejabberd.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_sources/lamp.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_sources/virtual-host.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/alabaster.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/comment-bright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/comment-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/css/badge_only.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/css/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/doctools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/down-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Inconsolata-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Inconsolata-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Lato-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Lato-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/RobotoSlab-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/RobotoSlab-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/jquery-3.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/js/modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/js/theme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/nature.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/searchtools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/underscore-1.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/up-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/_static/websupport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/ejabberd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/genindex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/lamp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/objects.inv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/searchindex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/html/virtual-host.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/ejabberd.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/index.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/lamp.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/virtual-host.doctree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.nojekyll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/ejabberd.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/index.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/lamp.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/virtual-host.rst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/comment-bright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/comment-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/badge_only.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/doctools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/down-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-3.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/theme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/searchtools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/underscore-1.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/up-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/websupport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/lamp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/objects.inv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/searchindex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/en/virtual-host.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/comment-bright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/comment-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/css/badge_only.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/css/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/doctools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/down-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/Inconsolata-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/Inconsolata-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/Lato-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/Lato-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/RobotoSlab-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/RobotoSlab-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/jquery-3.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/js/modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/js/theme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/searchtools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/underscore-1.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/up-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/websupport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/make.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/ejabberd.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/lamp.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/virtual-host.rst" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/ajax-loader.gif" afterPath="$PROJECT_DIR$/style/ajax-loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/basic.css" afterPath="$PROJECT_DIR$/style/basic.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/comment-bright.png" afterPath="$PROJECT_DIR$/style/comment-bright.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/comment-close.png" afterPath="$PROJECT_DIR$/style/comment-close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/comment.png" afterPath="$PROJECT_DIR$/style/comment.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/css/badge_only.css" afterPath="$PROJECT_DIR$/style/css/badge_only.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/css/theme.css" afterPath="$PROJECT_DIR$/style/css/theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/doctools.js" afterPath="$PROJECT_DIR$/style/doctools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/down-pressed.png" afterPath="$PROJECT_DIR$/style/down-pressed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/down.png" afterPath="$PROJECT_DIR$/style/down.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/file.png" afterPath="$PROJECT_DIR$/style/file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/Inconsolata-Bold.ttf" afterPath="$PROJECT_DIR$/style/fonts/Inconsolata-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/Inconsolata-Regular.ttf" afterPath="$PROJECT_DIR$/style/fonts/Inconsolata-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/Lato-Bold.ttf" afterPath="$PROJECT_DIR$/style/fonts/Lato-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/Lato-Regular.ttf" afterPath="$PROJECT_DIR$/style/fonts/Lato-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/RobotoSlab-Bold.ttf" afterPath="$PROJECT_DIR$/style/fonts/RobotoSlab-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/RobotoSlab-Regular.ttf" afterPath="$PROJECT_DIR$/style/fonts/RobotoSlab-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/style/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/style/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/style/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/style/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/jquery-3.1.0.js" afterPath="$PROJECT_DIR$/style/jquery-3.1.0.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/jquery.js" afterPath="$PROJECT_DIR$/style/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/js/modernizr.min.js" afterPath="$PROJECT_DIR$/style/js/modernizr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/js/theme.js" afterPath="$PROJECT_DIR$/style/js/theme.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/minus.png" afterPath="$PROJECT_DIR$/style/minus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/plus.png" afterPath="$PROJECT_DIR$/style/plus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/pygments.css" afterPath="$PROJECT_DIR$/style/pygments.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/searchtools.js" afterPath="$PROJECT_DIR$/style/searchtools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/underscore-1.3.1.js" afterPath="$PROJECT_DIR$/style/underscore-1.3.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/underscore.js" afterPath="$PROJECT_DIR$/style/underscore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/up-pressed.png" afterPath="$PROJECT_DIR$/style/up-pressed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/up.png" afterPath="$PROJECT_DIR$/style/up.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_static/websupport.js" afterPath="$PROJECT_DIR$/style/websupport.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ejabberd.html" afterPath="$PROJECT_DIR$/ejabberd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genindex.html" afterPath="$PROJECT_DIR$/genindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lamp.html" afterPath="$PROJECT_DIR$/lamp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtual-host.html" afterPath="$PROJECT_DIR$/virtual-host.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -166,7 +56,70 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="theme.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/js/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="websupport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/websupport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="671" column="27" lean-forward="false" selection-start-line="671" selection-start-column="27" selection-end-line="671" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ejabberd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejabberd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genindex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modernizr.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/js/modernizr.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="3" column="1766" lean-forward="true" selection-start-line="3" selection-start-column="1766" selection-end-line="3" selection-end-column="1766" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -174,7 +127,11 @@
       <find>Code and Script</find>
       <find>source</find>
       <find>source/</find>
+      <find>_static</find>
     </findStrings>
+    <replaceStrings>
+      <replace>style</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,12 +142,15 @@
         <option value="$PROJECT_DIR$/index.rst" />
         <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/ejabberd.rst" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/source/virtual-host.rst" />
         <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/source/lamp.rst" />
         <option value="$PROJECT_DIR$/source/conf.py" />
         <option value="$PROJECT_DIR$/source/ejabberd.rst" />
+        <option value="$PROJECT_DIR$/_static/websupport.js" />
+        <option value="$PROJECT_DIR$/ejabberd.html" />
+        <option value="$PROJECT_DIR$/genindex.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -327,21 +287,22 @@
       <workItem from="1486213225019" duration="13190000" />
       <workItem from="1486343954038" duration="53000" />
       <workItem from="1487956221806" duration="64000" />
-      <workItem from="1487956295248" duration="5000" />
+      <workItem from="1487956295248" duration="182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17069000" />
+    <option name="totallyTimeSpent" value="17246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27208757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27208757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39203677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -352,7 +313,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -383,7 +343,6 @@
     <entry file="file://$PROJECT_DIR$/index.rst" />
     <entry file="file://$PROJECT_DIR$/conf.py" />
     <entry file="file://$PROJECT_DIR$/ejabberd.rst" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/amqp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -398,5 +357,55 @@
     <entry file="file://$PROJECT_DIR$/source/virtual-host.rst" />
     <entry file="file://$PROJECT_DIR$/en/searchindex.js" />
     <entry file="file://$PROJECT_DIR$/source/ejabberd.rst" />
+    <entry file="file://$PROJECT_DIR$/style/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/websupport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="671" column="27" lean-forward="false" selection-start-line="671" selection-start-column="27" selection-end-line="671" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/js/modernizr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="3" column="1766" lean-forward="true" selection-start-line="3" selection-start-column="1766" selection-end-line="3" selection-end-column="1766" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejabberd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
