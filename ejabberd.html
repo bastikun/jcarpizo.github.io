@@ -90,6 +90,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#change-admin-password">Change Admin Password</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#restart-ejabberd">Restart eJabberd</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#enable-the-multi-user-chat-history">Enable the multi user chat history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-the-host-name">Enable the host name</a></li>
 </ul>
 </li>
 </ul>
@@ -194,6 +195,23 @@
     <span class="p">{</span><span class="n">outdir</span><span class="p">,</span> <span class="s2">&quot;/var/www/html/chat-room&quot;</span><span class="p">},</span>
     <span class="p">{</span><span class="n">timezone</span><span class="p">,</span> <span class="n">universal</span><span class="p">}</span>
 <span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="enable-the-host-name">
+<h2>Enable the host name<a class="headerlink" href="#enable-the-host-name" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">subl</span> <span class="pre">/etc/hosts</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span>   <span class="n">localhost</span>
+<span class="mf">127.0</span><span class="o">.</span><span class="mf">1.1</span>   <span class="n">latitude</span><span class="o">-</span><span class="mi">3470</span>
+<span class="mf">127.0</span><span class="o">.</span><span class="mf">1.1</span>   <span class="n">ls</span><span class="o">-</span><span class="n">summit</span><span class="o">.</span><span class="n">dev</span>
+<span class="mf">127.0</span><span class="o">.</span><span class="mf">1.1</span>   <span class="n">gmovies</span><span class="o">-</span><span class="n">web</span><span class="o">.</span><span class="n">dev</span>
+
+<span class="c1"># The following lines are desirable for IPv6 capable hosts</span>
+<span class="p">::</span><span class="mi">1</span>     <span class="n">ip6</span><span class="o">-</span><span class="n">localhost</span> <span class="n">ip6</span><span class="o">-</span><span class="n">loopback</span>
+<span class="n">fe00</span><span class="p">::</span><span class="mi">0</span> <span class="n">ip6</span><span class="o">-</span><span class="n">localnet</span>
+<span class="n">ff00</span><span class="p">::</span><span class="mi">0</span> <span class="n">ip6</span><span class="o">-</span><span class="n">mcastprefix</span>
+<span class="n">ff02</span><span class="p">::</span><span class="mi">1</span> <span class="n">ip6</span><span class="o">-</span><span class="n">allnodes</span>
+<span class="n">ff02</span><span class="p">::</span><span class="mi">2</span> <span class="n">ip6</span><span class="o">-</span><span class="n">allrouters</span>
 </pre></div>
 </div>
 </div>
