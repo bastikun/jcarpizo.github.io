@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Scripts and Codes documentation build configuration file, created by
-# sphinx-quickstart on Sat Feb 25 01:22:42 2017.
+# Code and Script documentation build configuration file, created by
+# sphinx-quickstart on Sat Feb  4 21:20:02 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -30,12 +30,14 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
+extensions = ['sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.mathjax',
     'sphinx.ext.githubpages']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['statictemplates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -47,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Scripts and Codes'
+project = u'CS Documentation'
 copyright = u'2017, Jasper Carpizo'
 author = u'Jasper Carpizo'
 
@@ -56,7 +58,7 @@ author = u'Jasper Carpizo'
 # built documents.
 #
 # The short X.Y version.
-version = u'1.0'
+#version = u'1.0'
 # The full version, including alpha/beta/rc tags.
 release = u'1.0'
 
@@ -84,7 +86,8 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -95,13 +98,13 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['staticstatic']
+html_static_path = ['_static']
 
 
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ScriptsandCodesdoc'
+htmlhelp_basename = 'CodeandScriptdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -128,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ScriptsandCodes.tex', u'Scripts and Codes Documentation',
+    (master_doc, 'CodeandScript.tex', u'Code and Script Documentation',
      u'Jasper Carpizo', 'manual'),
 ]
 
@@ -138,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'scriptsandcodes', u'Scripts and Codes Documentation',
+    (master_doc, 'codeandscript', u'Code and Script Documentation',
      [author], 1)
 ]
 
@@ -149,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ScriptsandCodes', u'Scripts and Codes Documentation',
-     author, 'ScriptsandCodes', 'One line description of project.',
+    (master_doc, 'CodeandScript', u'Code and Script Documentation',
+     author, 'CodeandScript', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -177,3 +180,6 @@ epub_copyright = copyright
 epub_exclude_files = ['search.html']
 
 
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {'https://docs.python.org/': None}
