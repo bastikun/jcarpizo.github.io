@@ -87,19 +87,12 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 
-import guzzle_sphinx_theme
+import t3SphinxThemeRtd
 
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = 'guzzle_sphinx_theme'
+html_theme = "t3SphinxThemeRtd"
 
-# Register the theme as an extension to generate a sitemap.xml
-extensions.append("guzzle_sphinx_theme")
+html_theme_path = [t3SphinxThemeRtd.get_html_theme_path()]
 
-# Guzzle theme options (see theme.conf for more information)
-html_theme_options = {
-    # Set the name of the project to appear in the sidebar
-    "project_nav_name": "CS Documentation",
-}
 
 
 #html_theme = "sphinx_rtd_theme"
