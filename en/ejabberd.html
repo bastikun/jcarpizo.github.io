@@ -1,142 +1,144 @@
 <!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Install eJabberd XMPP Server on Ubuntu 14 &mdash; CS Documentation  documentation</title>
+  
 
+  
+  
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/jquery-ui/jquery-ui.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="_static/css/t3more.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="CS Documentation  documentation" href="index.html"/>
+        <link rel="prev" title="How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS" href="virtual-host.html"/> 
+  <script src="_static/js/modernizr.min.js"></script>
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
     
-    <title>Install eJabberd XMPP Server on Ubuntu 14 &#8212; CS Documentation 1.0 documentation</title>
-    
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootswatch-3.3.6/united/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
-    
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '1.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS" href="virtual-host.html" />
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
 
-  </head>
-  <body role="document">
+        <ul class="sidebartop">
 
-  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          CS Documentation</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
+          <li class="docsite">
+            <a href="https://docs.typo3.org"><img src="_static/img/typo3-documentation.png" class="logo" /></a>
+          </li>
+
+          <li class="project">
+            <a href="index.html">
+              CS Documentation</a>
+          </li><li class="nolink search">
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search this project" id="searchinput" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div></li>
+
+        </ul>
+
+        
       </div>
 
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-              <li class="dropdown globaltoc-container">
-  <a role="button"
-     id="dLabelGlobalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="index.html">Site <b class="caret"></b></a>
-  <ul class="dropdown-menu globaltoc"
-      role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
-<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Install eJabberd XMPP Server on Ubuntu 14</a></li>
-</ul>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lamp.html#install-phpmyadmin">Install phpMyAdmin</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="lamp.html#re-configure-phpmyadmin">Re-configure phpMyadmin</a></li>
 </ul>
 </li>
-              
-                <li class="dropdown">
-  <a role="button"
-     id="dLabelLocalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="#">Page <b class="caret"></b></a>
-  <ul class="dropdown-menu localtoc"
-      role="menu"
-      aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Install eJabberd XMPP Server on Ubuntu 14</a><ul>
-<li><a class="reference internal" href="#install-ejabberd">Install eJabberd</a></li>
-<li><a class="reference internal" href="#setup-admin-user">Setup Admin User</a></li>
-<li><a class="reference internal" href="#give-admin-privileges">Give Admin Privileges</a></li>
-<li><a class="reference internal" href="#change-admin-password">Change Admin Password</a></li>
-<li><a class="reference internal" href="#restart-ejabberd">Restart eJabberd</a></li>
-<li><a class="reference internal" href="#enable-the-multi-user-chat-history">Enable the multi user chat history</a></li>
-<li><a class="reference internal" href="#enable-the-host-name">Enable the host name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lamp.html#secure-your-phpmyadmin-instance">Secure your phpMyAdmin Instance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="lamp.html#configure-apache-to-allow-htaccess-overrides">Configure Apache to Allow .htaccess Overrides</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lamp.html#create-an-htaccess-file">Create an .htaccess file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lamp.html#create-the-htpasswd-file-for-authentication">Create the .htpasswd file for Authentication</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lamp.html#enable-httaccess-rewrite">Enable .httaccess rewrite</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lamp.html#solve-phpmyadmin-not-found">Solve phpmyadmin not found</a></li>
 </ul>
 </li>
 </ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="virtual-host.html#create-the-first-virtual-host-file">Create the First Virtual Host File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtual-host.html#enable-the-new-virtual-host-files">Enable the New Virtual Host Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtual-host.html#set-up-local-hosts-file-optional">Set Up Local Hosts File (Optional)</a></li>
 </ul>
 </li>
-              
-            
-            
-              
-                
-  <li>
-    <a href="virtual-host.html" title="Previous Chapter: How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; How To Set Up...</span>
-    </a>
-  </li>
-              
-            
-            
-            
-            
-              <li class="hidden-sm">
-<div id="sourcelink">
-  <a href="_sources/ejabberd.rst.txt"
-     rel="nofollow">Source</a>
-</div></li>
-            
-          </ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Install eJabberd XMPP Server on Ubuntu 14</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#install-ejabberd">Install eJabberd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup-admin-user">Setup Admin User</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#give-admin-privileges">Give Admin Privileges</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#change-admin-password">Change Admin Password</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#restart-ejabberd">Restart eJabberd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-the-multi-user-chat-history">Enable the multi user chat history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-the-host-name">Enable the host name</a></li>
+</ul>
+</li>
+</ul>
 
           
-            
-<form class="navbar-form navbar-right" action="search.html" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-          
-        </div>
-    </div>
-  </div>
+        
+      </div>
+      &nbsp;
+    </nav>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12 content">
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
       
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">CS Documentation</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    <li>Install eJabberd XMPP Server on Ubuntu 14</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/ejabberd.rst.txt" rel="nofollow">
+                <span class="fa fa-binoculars"></span>&#32;View page source
+            </a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody" class="toBeIndexed">
+            
   <div class="section" id="install-ejabberd-xmpp-server-on-ubuntu-14">
 <h1>Install eJabberd XMPP Server on Ubuntu 14<a class="headerlink" href="#install-ejabberd-xmpp-server-on-ubuntu-14" title="Permalink to this headline">¶</a></h1>
 <p>login to your droplet via SSH as root.</p>
@@ -218,21 +220,77 @@
 </div>
 
 
+           </div><!-- /.toBeIndexed -->
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="virtual-host.html" class="btn btn-neutral" title="Accesskey Alt(+Shift)+p" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
     </div>
-      
+  
+
+  <hr/>
+
+  <div role="contentinfo" class="contentinfo">
+      <p class="show_source">
+        <a href="_sources/ejabberd.rst.txt" rel="nofollow">
+          <span class="fa fa-binoculars"></span>&#32;View page source
+        </a>
+      </p>
+      <p class="show_copyright">
+            &copy; Copyright 2017, Jasper Carpizo
+      </p>
+      <p class="show_sphinx">
+        Built with <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a> and
+        <a href="https://github.com/TYPO3-Documentation/t3SphinxThemeRtd" target="_blank">t3SphinxThemeRtd.</a>
+        Report theme issues <a href="https://github.com/TYPO3-Documentation/t3SphinxThemeRtd/issues" target="_blank">here.</a>
+      </p>
+
   </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
-      
-    </p>
-    <p>
-        &copy; Copyright 2017, Jasper Carpizo.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.2.<br/>
-    </p>
-  </div>
+
 </footer>
-  </body>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script type="text/javascript" src="_static/jquery-ui/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="_static/js/theme.js"></script>
+      <script type="text/javascript" src="_static/js/t3autocomplete.js"></script>
+
+  
+
+  
+   
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
 </html>
