@@ -183,18 +183,16 @@ epub_exclude_files = ['search.html']
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
 
-# At the top.
-import sphinx_bootstrap_theme
+import guzzle_sphinx_theme
 
-# ...
+html_theme_path = guzzle_sphinx_theme.html_theme_path()
+html_theme = 'guzzle_sphinx_theme'
 
-# Activate the theme.
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+# Register the theme as an extension to generate a sitemap.xml
+extensions.append("guzzle_sphinx_theme")
+
+# Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
- 'bootswatch_theme': "united",
- 'navbar_links': [
-         ("Symfony", "http://symfony.com/", True),
-         ("Doctrine", "http://doctrine-orm.readthedocs.io/en/latest/", True),
-     ],
+    # Set the name of the project to appear in the sidebar
+    "project_nav_name": "CS Documentation",
 }
