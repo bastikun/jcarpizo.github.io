@@ -183,17 +183,18 @@ epub_exclude_files = ['search.html']
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
 
-import guzzle_sphinx_theme
+# At the top.
+import sphinx_bootstrap_theme
 
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = 'guzzle_sphinx_theme'
+# ...
 
-# Register the theme as an extension to generate a sitemap.xml
-extensions.append("guzzle_sphinx_theme")
+# Activate the theme.
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
-# Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
-    # Set the name of the project to appear in the sidebar
-    "project_nav_name": "CS Documentation",
-    "projectlink": "https://github.com/jcarpizo/jcarpizo.github.io",
+ 'navbar_class': "navbar navbar-inverse",
+ 'source_link_position': "nav",
+ 'bootswatch_theme': "united",
+ 'bootstrap_version': "3",
 }
