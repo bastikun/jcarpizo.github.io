@@ -193,7 +193,6 @@ html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_theme_options = {
  'bootswatch_theme': "united",
- 'navbar_class': "navbar navbar-inverse",
  'navbar_links': [
          ("Symfony", "http://symfony.com/", True),
          ("Doctrine", "http://doctrine-orm.readthedocs.io/en/latest/", True),
