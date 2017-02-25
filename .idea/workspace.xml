@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/.buildinfo" afterPath="$PROJECT_DIR$/build/html/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.js" afterPath="$PROJECT_DIR$/build/html/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.min.map" afterPath="$PROJECT_DIR$/build/html/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/searchtools.js" afterPath="$PROJECT_DIR$/build/html/_static/searchtools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/ejabberd.html" afterPath="$PROJECT_DIR$/build/html/ejabberd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/genindex.html" afterPath="$PROJECT_DIR$/build/html/genindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/index.html" afterPath="$PROJECT_DIR$/build/html/index.html" />
@@ -16,9 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/search.html" afterPath="$PROJECT_DIR$/build/html/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/virtual-host.html" afterPath="$PROJECT_DIR$/build/html/virtual-host.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="$PROJECT_DIR$/en/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.js" afterPath="$PROJECT_DIR$/en/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.min.map" afterPath="$PROJECT_DIR$/en/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/searchtools.js" afterPath="$PROJECT_DIR$/en/_static/searchtools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="$PROJECT_DIR$/en/ejabberd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="$PROJECT_DIR$/en/genindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
@@ -63,8 +55,8 @@
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+            <state relative-caret-position="279">
+              <caret line="197" column="66" lean-forward="false" selection-start-line="197" selection-start-column="66" selection-end-line="197" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -86,7 +78,7 @@
             <state relative-caret-position="120">
               <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
-                <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
+                <marker date="1487983236102" expanded="true" signature="9041:9047" ph="..." />
               </folding>
             </state>
           </provider>
@@ -379,12 +371,12 @@
       <workItem from="1487956686814" duration="984000" />
       <workItem from="1487957690073" duration="1433000" />
       <workItem from="1487959665989" duration="3704000" />
-      <workItem from="1487982207721" duration="543000" />
+      <workItem from="1487982207721" duration="1030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24109000" />
+    <option name="totallyTimeSpent" value="24596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
@@ -441,7 +433,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
-            <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
+            <marker date="1487983236102" expanded="true" signature="9041:9047" ph="..." />
           </folding>
         </state>
       </provider>
@@ -499,7 +491,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
+            <marker date="1487983236102" expanded="true" signature="9041:9047" ph="..." />
           </folding>
         </state>
       </provider>
@@ -625,7 +617,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
+            <marker date="1487983236102" expanded="true" signature="9041:9047" ph="..." />
           </folding>
         </state>
       </provider>
@@ -647,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+        <state relative-caret-position="279">
+          <caret line="197" column="66" lean-forward="false" selection-start-line="197" selection-start-column="66" selection-end-line="197" selection-end-column="66" />
           <folding />
         </state>
       </provider>
