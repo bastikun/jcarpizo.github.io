@@ -1,24 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-  
-  <!-- Licensed under the Apache 2.0 License -->
-  <link rel="stylesheet" type="text/css" href="_static/fonts/open-sans/stylesheet.css" />
-  <!-- Licensed under the SIL Open Font License -->
-  <link rel="stylesheet" type="text/css" href="_static/fonts/source-serif-pro/source-serif-pro.css" />
-  <link rel="stylesheet" type="text/css" href="_static/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <title>Install eJabberd XMPP Server on Ubuntu 14 &#8212; CS Documentation 1.0 documentation</title>
     
-    <link rel="stylesheet" href="_static/guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.6/united/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -34,89 +26,117 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS" href="virtual-host.html" />
-  
-   
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
 
   </head>
   <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="virtual-host.html" title="How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS"
-             accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">CS Documentation 1.0 documentation</a> &#187;</li> 
-      </ul>
-    </div>
-    <div class="container-wrapper">
 
-      <div id="mobile-toggle">
-        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          CS Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
       </div>
-  <div id="left-column">
-    <div class="sphinxsidebar">
-        <a href="
-    index.html" class="text-logo">CS Documentation</a>
-        
-<div class="sidebar-block">
-  <div class="sidebar-wrapper">
-    <h2>Table Of Contents</h2>
-  </div>
-  <div class="sidebar-toc">
-    
-    
-      <ul class="current">
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
 <li class="toctree-l1"><a class="reference internal" href="virtual-host.html">How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Install eJabberd XMPP Server on Ubuntu 14</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#install-ejabberd">Install eJabberd</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#setup-admin-user">Setup Admin User</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#give-admin-privileges">Give Admin Privileges</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#change-admin-password">Change Admin Password</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#restart-ejabberd">Restart eJabberd</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#enable-the-multi-user-chat-history">Enable the multi user chat history</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#enable-the-host-name">Enable the host name</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Install eJabberd XMPP Server on Ubuntu 14</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Install eJabberd XMPP Server on Ubuntu 14</a><ul>
+<li><a class="reference internal" href="#install-ejabberd">Install eJabberd</a></li>
+<li><a class="reference internal" href="#setup-admin-user">Setup Admin User</a></li>
+<li><a class="reference internal" href="#give-admin-privileges">Give Admin Privileges</a></li>
+<li><a class="reference internal" href="#change-admin-password">Change Admin Password</a></li>
+<li><a class="reference internal" href="#restart-ejabberd">Restart eJabberd</a></li>
+<li><a class="reference internal" href="#enable-the-multi-user-chat-history">Enable the multi user chat history</a></li>
+<li><a class="reference internal" href="#enable-the-host-name">Enable the host name</a></li>
 </ul>
 </li>
 </ul>
-
-    
-  </div>
-</div>
-        
-<div class="sidebar-block">
-  <div class="sidebar-wrapper">
-    <div id="main-search">
-      <form class="form-inline" action="search.html" method="GET" role="form">
-        <div class="input-group">
-          <input name="q" type="text" class="form-control" placeholder="Search...">
-        </div>
-        <input type="hidden" name="check_keywords" value="yes" />
-        <input type="hidden" name="area" value="default" />
-      </form>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-        <div id="right-column">
-          
-          <div role="navigation" aria-label="breadcrumbs navigation">
-            <ol class="breadcrumb">
-              <li><a href="index.html">Docs</a></li>
+</ul>
+</li>
               
-              <li>Install eJabberd XMPP Server on Ubuntu 14</li>
-            </ol>
-          </div>
-          
-          <div class="document clearer body">
             
+            
+              
+                
+  <li>
+    <a href="virtual-host.html" title="Previous Chapter: How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; How To Set Up...</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="_sources/ejabberd.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
   <div class="section" id="install-ejabberd-xmpp-server-on-ubuntu-14">
 <h1>Install eJabberd XMPP Server on Ubuntu 14<a class="headerlink" href="#install-ejabberd-xmpp-server-on-ubuntu-14" title="Permalink to this headline">¶</a></h1>
 <p>login to your droplet via SSH as root.</p>
@@ -198,40 +218,21 @@
 </div>
 
 
-          </div>
-            
-  <div class="footer-relations">
-    
-      <div class="pull-left">
-        <a class="btn btn-default" href="virtual-host.html" title="previous chapter (use the left arrow)">How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a>
-      </div>
-    
     </div>
-    <div class="clearer"></div>
-  
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="virtual-host.html" title="How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS"
-             >previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">CS Documentation 1.0 documentation</a> &#187;</li> 
-      </ul>
-    </div>
-<script type="text/javascript">
-  $("#mobile-toggle a").click(function () {
-    $("#left-column").toggle();
-  });
-</script>
-<script type="text/javascript" src="_static/js/bootstrap.js"></script>
-  <div class="footer">
-    &copy; Copyright 2017, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+      
   </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2017, Jasper Carpizo.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.2.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>
