@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/.buildinfo" afterPath="$PROJECT_DIR$/build/html/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/ejabberd.html" afterPath="$PROJECT_DIR$/build/html/ejabberd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/genindex.html" afterPath="$PROJECT_DIR$/build/html/genindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/index.html" afterPath="$PROJECT_DIR$/build/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/lamp.html" afterPath="$PROJECT_DIR$/build/html/lamp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/search.html" afterPath="$PROJECT_DIR$/build/html/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/virtual-host.html" afterPath="$PROJECT_DIR$/build/html/virtual-host.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/conf.py" afterPath="$PROJECT_DIR$/source/conf.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +41,8 @@
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="195" column="58" lean-forward="false" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
+            <state relative-caret-position="279">
+              <caret line="197" column="68" lean-forward="false" selection-start-line="197" selection-start-column="68" selection-end-line="197" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -364,16 +357,16 @@
       <workItem from="1487956686814" duration="984000" />
       <workItem from="1487957690073" duration="1433000" />
       <workItem from="1487959665989" duration="3704000" />
-      <workItem from="1487982207721" duration="1463000" />
+      <workItem from="1487982207721" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25029000" />
+    <option name="totallyTimeSpent" value="25333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,7 +374,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39203677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39203677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -632,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="195" column="58" lean-forward="false" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
+        <state relative-caret-position="279">
+          <caret line="197" column="68" lean-forward="false" selection-start-line="197" selection-start-column="68" selection-end-line="197" selection-end-column="68" />
           <folding />
         </state>
       </provider>
