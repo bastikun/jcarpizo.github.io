@@ -3,24 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Inconsolata-Bold.ttf" afterPath="$PROJECT_DIR$/build/html/_static/fonts/Inconsolata-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Lato-Bold.ttf" afterPath="$PROJECT_DIR$/build/html/_static/fonts/Lato-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/fonts/Lato-Regular.ttf" afterPath="$PROJECT_DIR$/build/html/_static/fonts/Lato-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/fonts/RobotoSlab-Bold.ttf" afterPath="$PROJECT_DIR$/build/html/_static/fonts/RobotoSlab-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/fonts/RobotoSlab-Regular.ttf" afterPath="$PROJECT_DIR$/build/html/_static/fonts/RobotoSlab-Regular.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Bold.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Bold.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/Lato-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Regular.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/Lato-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Bold.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Regular.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Regular.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/.buildinfo" afterPath="$PROJECT_DIR$/build/html/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/css/badge_only.css" afterPath="$PROJECT_DIR$/build/html/_static/css/badge_only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/css/theme.css" afterPath="$PROJECT_DIR$/build/html/_static/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.js" afterPath="$PROJECT_DIR$/build/html/_static/jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.min.map" afterPath="$PROJECT_DIR$/build/html/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/js/theme.js" afterPath="$PROJECT_DIR$/build/html/_static/js/theme.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/searchtools.js" afterPath="$PROJECT_DIR$/build/html/_static/searchtools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/ejabberd.html" afterPath="$PROJECT_DIR$/build/html/ejabberd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/genindex.html" afterPath="$PROJECT_DIR$/build/html/genindex.html" />
@@ -29,11 +16,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/search.html" afterPath="$PROJECT_DIR$/build/html/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/virtual-host.html" afterPath="$PROJECT_DIR$/build/html/virtual-host.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="$PROJECT_DIR$/en/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/css/badge_only.css" afterPath="$PROJECT_DIR$/en/_static/css/badge_only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/css/theme.css" afterPath="$PROJECT_DIR$/en/_static/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.js" afterPath="$PROJECT_DIR$/en/_static/jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.min.map" afterPath="$PROJECT_DIR$/en/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/js/theme.js" afterPath="$PROJECT_DIR$/en/_static/js/theme.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/searchtools.js" afterPath="$PROJECT_DIR$/en/_static/searchtools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="$PROJECT_DIR$/en/ejabberd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="$PROJECT_DIR$/en/genindex.html" />
@@ -79,8 +63,8 @@
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -99,11 +83,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="120">
+              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
-                <marker date="1487963975454" expanded="true" signature="10936:10942" ph="..." />
-                <marker date="1487963975454" expanded="true" signature="10936:10950" ph="..." />
+                <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
               </folding>
             </state>
           </provider>
@@ -174,6 +157,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="45" />
@@ -196,8 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,6 +278,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,23 +379,24 @@
       <workItem from="1487956686814" duration="984000" />
       <workItem from="1487957690073" duration="1433000" />
       <workItem from="1487959665989" duration="3704000" />
+      <workItem from="1487982207721" duration="543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23566000" />
+    <option name="totallyTimeSpent" value="24109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28381547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39203677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39203677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -433,6 +420,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/objects.inv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/searchindex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/html/_static/js/theme.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -470,8 +499,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487963975454" expanded="true" signature="10936:10942" ph="..." />
-            <marker date="1487963975454" expanded="true" signature="10936:10950" ph="..." />
+            <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
           </folding>
         </state>
       </provider>
@@ -594,11 +622,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <marker date="1487963975454" expanded="true" signature="10936:10942" ph="..." />
-            <marker date="1487963975454" expanded="true" signature="10936:10950" ph="..." />
+            <marker date="1487982720947" expanded="true" signature="8197:8203" ph="..." />
           </folding>
         </state>
       </provider>
@@ -615,14 +642,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="952" column="0" lean-forward="true" selection-start-line="952" selection-start-column="0" selection-end-line="952" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
           <folding />
         </state>
       </provider>
