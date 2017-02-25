@@ -183,7 +183,19 @@ epub_exclude_files = ['search.html']
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
 
-import t3SphinxThemeRtd
-html_theme = "t3SphinxThemeRtd"
-html_theme_path = [t3SphinxThemeRtd.get_html_theme_path()]
-html_theme_path.append(t3SphinxThemeRtd.get_html_theme_path())
+# At the top.
+import sphinx_bootstrap_theme
+
+# ...
+
+# Activate the theme.
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme_options = {
+ 'bootswatch_theme': "united",
+ 'navbar_class': "navbar navbar-inverse",
+ 'navbar_links': [
+         ("Symfony", "http://symfony.com/", True),
+         ("Doctrine", "http://doctrine-orm.readthedocs.io/en/latest/", True),
+     ],
+}
