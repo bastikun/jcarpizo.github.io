@@ -196,5 +196,5 @@ html_theme_options = {
     # Set the name of the project to appear in the sidebar
     "project_nav_name": "CS Documentation",
     "projectlink": "https://github.com/jcarpizo/jcarpizo.github.io",
-    "disqus_comments_shortname": "my_disqus_comments_short_name",
+    "disqus_comments_shortname": "https-jcarpizo-github-io",
 }
