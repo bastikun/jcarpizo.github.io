@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/sphinx.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/index.doctree" afterPath="$PROJECT_DIR$/build/doctrees/index.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/index.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/index.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/.buildinfo" afterPath="$PROJECT_DIR$/build/html/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.js" afterPath="$PROJECT_DIR$/build/html/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.min.map" afterPath="$PROJECT_DIR$/build/html/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/ejabberd.html" afterPath="$PROJECT_DIR$/build/html/ejabberd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" afterPath="$PROJECT_DIR$/build/html/_sources/index.rst.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/genindex.html" afterPath="$PROJECT_DIR$/build/html/genindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/index.html" afterPath="$PROJECT_DIR$/build/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/lamp.html" afterPath="$PROJECT_DIR$/build/html/lamp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/objects.inv" afterPath="$PROJECT_DIR$/build/html/objects.inv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/search.html" afterPath="$PROJECT_DIR$/build/html/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/virtual-host.html" afterPath="$PROJECT_DIR$/build/html/virtual-host.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="$PROJECT_DIR$/en/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.js" afterPath="$PROJECT_DIR$/en/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.min.map" afterPath="$PROJECT_DIR$/en/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="$PROJECT_DIR$/en/ejabberd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/searchindex.js" afterPath="$PROJECT_DIR$/build/html/searchindex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_sources/index.rst.txt" afterPath="$PROJECT_DIR$/en/_sources/index.rst.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="$PROJECT_DIR$/en/genindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/lamp.html" afterPath="$PROJECT_DIR$/en/lamp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/objects.inv" afterPath="$PROJECT_DIR$/en/objects.inv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/search.html" afterPath="$PROJECT_DIR$/en/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/virtual-host.html" afterPath="$PROJECT_DIR$/en/virtual-host.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/searchindex.js" afterPath="$PROJECT_DIR$/en/searchindex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.rst" afterPath="$PROJECT_DIR$/source/index.rst" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+            <state relative-caret-position="279">
+              <caret line="197" column="1" lean-forward="false" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sphinx.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/sphinx.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lamp.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/lamp.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -77,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -93,7 +111,11 @@
             <state relative-caret-position="255">
               <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding>
-                <marker date="1488016640897" expanded="true" signature="8185:8191" ph="..." />
+                <marker date="1488078023580" expanded="true" signature="7285:7472" ph="..." />
+                <marker date="1488078023580" expanded="true" signature="8036:8042" ph="..." />
+                <marker date="1488078023580" expanded="true" signature="8146:8183" ph="{...}" />
+                <marker date="1488078023580" expanded="false" signature="8294:8300" ph="©" />
+                <marker date="1488078023580" expanded="true" signature="8405:8411" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,9 +174,10 @@
         <option value="$PROJECT_DIR$/ejabberd.html" />
         <option value="$PROJECT_DIR$/genindex.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/en/_static/guzzle.css" />
         <option value="$PROJECT_DIR$/source/conf.py" />
+        <option value="$PROJECT_DIR$/source/sphinx.rst" />
+        <option value="$PROJECT_DIR$/source/index.rst" />
       </list>
     </option>
   </component>
@@ -189,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,9 +226,22 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcarpizo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcarpizo.github.io" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,17 +343,18 @@
       <workItem from="1487959665989" duration="3704000" />
       <workItem from="1487982207721" duration="1809000" />
       <workItem from="1487986649967" duration="872000" />
+      <workItem from="1488016869833" duration="1429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30997000" />
+    <option name="totallyTimeSpent" value="32426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29241595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2971071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -346,14 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -367,7 +397,11 @@
         <state relative-caret-position="195">
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
-            <marker date="1488016640897" expanded="true" signature="8185:8191" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="7285:7472" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="8036:8042" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="8146:8183" ph="{...}" />
+            <marker date="1488078023580" expanded="false" signature="8294:8300" ph="©" />
+            <marker date="1488078023580" expanded="true" signature="8405:8411" ph="..." />
           </folding>
         </state>
       </provider>
@@ -425,7 +459,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488016640897" expanded="true" signature="8185:8191" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="7285:7472" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="8036:8042" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="8146:8183" ph="{...}" />
+            <marker date="1488078023580" expanded="false" signature="8294:8300" ph="©" />
+            <marker date="1488078023580" expanded="true" signature="8405:8411" ph="..." />
           </folding>
         </state>
       </provider>
@@ -477,7 +515,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/js/theme.js" />
-    <entry file="file://$PROJECT_DIR$/source/lamp.rst" />
     <entry file="file://$PROJECT_DIR$/style/js/theme.js" />
     <entry file="file://$PROJECT_DIR$/style/websupport.js" />
     <entry file="file://$PROJECT_DIR$/genindex.html" />
@@ -552,16 +589,12 @@
         <state relative-caret-position="255">
           <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding>
-            <marker date="1488016640897" expanded="true" signature="8185:8191" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="7285:7472" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="8036:8042" ph="..." />
+            <marker date="1488078023580" expanded="true" signature="8146:8183" ph="{...}" />
+            <marker date="1488078023580" expanded="false" signature="8294:8300" ph="©" />
+            <marker date="1488078023580" expanded="true" signature="8405:8411" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,8 +607,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="196" column="41" lean-forward="false" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+        <state relative-caret-position="279">
+          <caret line="197" column="1" lean-forward="false" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lamp.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sphinx.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>

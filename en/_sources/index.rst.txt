@@ -10,6 +10,7 @@ Welcome to Code Script's documentation!
    :maxdepth: 2
 
    lamp
+   sphinx
    virtual-host
    ejabberd
 
