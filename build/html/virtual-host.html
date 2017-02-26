@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <title>How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS &#8212; CS Documentation  documentation</title>
+    <title>Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS &#8212; CS Documentation  documentation</title>
     
     <link rel="stylesheet" href="_static/guzzle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -36,8 +36,7 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
-    <link rel="prev" title="Install LAMP in one command" href="lamp.html" />
+    <link rel="prev" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
   
    
 
@@ -51,9 +50,6 @@
              accesskey="I">index</a></li>
         <li class="right" >
           <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="lamp.html" title="Install LAMP in one command"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">CS Documentation  documentation</a> &#187;</li> 
       </ul>
@@ -66,7 +62,7 @@
   <div id="left-column">
     <div class="sphinxsidebar">
         <a href="
-    index.html" class="text-logo">CS Documentation</a>
+    index.html" class="text-logo">JCode Documentation</a>
         
 <div class="sidebar-block">
   <div class="sidebar-wrapper">
@@ -77,13 +73,14 @@
     
       <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#create-the-first-virtual-host-file">Create the First Virtual Host File</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#enable-the-new-virtual-host-files">Enable the New Virtual Host Files</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#set-up-local-hosts-file-optional">Set Up Local Hosts File (Optional)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sphinx.html">Install Sphinx Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-virtual-host-file">Create Virtual Host File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-the-virtual-host-files">Enable the Virtual Host Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-up-local-hosts-file">Set Up Local Hosts File</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
 </ul>
 
     
@@ -111,16 +108,16 @@
             <ol class="breadcrumb">
               <li><a href="index.html">Docs</a></li>
               
-              <li>How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</li>
+              <li>Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</li>
             </ol>
           </div>
           
           <div class="document clearer body">
             
-  <div class="section" id="how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04-lts">
-<h1>How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS<a class="headerlink" href="#how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04-lts" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="create-the-first-virtual-host-file">
-<h2>Create the First Virtual Host File<a class="headerlink" href="#create-the-first-virtual-host-file" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="set-up-apache-virtual-hosts-on-ubuntu-16-04-lts">
+<h1>Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS<a class="headerlink" href="#set-up-apache-virtual-hosts-on-ubuntu-16-04-lts" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="create-virtual-host-file">
+<h2>Create Virtual Host File<a class="headerlink" href="#create-virtual-host-file" title="Permalink to this headline">¶</a></h2>
 <p>Start by copying the file for the first domain:</p>
 <p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">cp</span> <span class="pre">/etc/apache2/sites-available/000-default.conf</span> <span class="pre">/etc/apache2/sites-available/example.com.conf</span></code></p>
 <p>Open the new file in your editor with root privileges:</p>
@@ -166,15 +163,15 @@
 </pre></div>
 </div>
 </div>
-<div class="section" id="enable-the-new-virtual-host-files">
-<h2>Enable the New Virtual Host Files<a class="headerlink" href="#enable-the-new-virtual-host-files" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="enable-the-virtual-host-files">
+<h2>Enable the Virtual Host Files<a class="headerlink" href="#enable-the-virtual-host-files" title="Permalink to this headline">¶</a></h2>
 <p>We can use the a2ensite tool to enable each of our sites like this:</p>
 <p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">a2ensite</span> <span class="pre">example.com.conf</span></code></p>
 <p>When you are finished, you need to restart Apache to make these changes take effect:</p>
 <p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">service</span> <span class="pre">apache2</span> <span class="pre">restart</span></code></p>
 </div>
-<div class="section" id="set-up-local-hosts-file-optional">
-<h2>Set Up Local Hosts File (Optional)<a class="headerlink" href="#set-up-local-hosts-file-optional" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="set-up-local-hosts-file">
+<h2>Set Up Local Hosts File<a class="headerlink" href="#set-up-local-hosts-file" title="Permalink to this headline">¶</a></h2>
 <p>If you are on a Mac or Linux computer, edit your local file with administrative privileges by typing:</p>
 <p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">nano</span> <span class="pre">/etc/hosts</span></code></p>
 <p>If you are on a Windows machine, you can find instructions on altering your hosts file here.</p>
@@ -202,12 +199,9 @@
   <div class="footer-relations">
     
       <div class="pull-left">
-        <a class="btn btn-default" href="lamp.html" title="previous chapter (use the left arrow)">Install LAMP in one command</a>
+        <a class="btn btn-default" href="ejabberd.html" title="previous chapter (use the left arrow)">Install eJabberd XMPP Server on Ubuntu 14</a>
       </div>
     
-      <div class="pull-right">
-        <a class="btn btn-default" href="ejabberd.html" title="next chapter (use the right arrow)">Install eJabberd XMPP Server on Ubuntu 14</a>
-      </div>
     </div>
     <div class="clearer"></div>
   
@@ -222,9 +216,6 @@
              >index</a></li>
         <li class="right" >
           <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="lamp.html" title="Install LAMP in one command"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">CS Documentation  documentation</a> &#187;</li> 
       </ul>
@@ -236,7 +227,7 @@
 </script>
 <script type="text/javascript" src="_static/js/bootstrap.js"></script>
   <div class="footer">
-    &copy; Copyright 2017, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    &copy; Copyright 2014, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
   </div>
   </body>
 </html>

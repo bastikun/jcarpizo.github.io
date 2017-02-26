@@ -1,9 +1,9 @@
-How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS
-======================================================
+Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS
+===============================================
 
-==================================
-Create the First Virtual Host File
-==================================
+========================
+Create Virtual Host File
+========================
 
 Start by copying the file for the first domain:
 
@@ -53,9 +53,9 @@ The file will look something like this (I've removed the comments here to make t
         #Include conf-available/serve-cgi-bin.conf
     </VirtualHost>
 
-=================================
-Enable the New Virtual Host Files
-=================================
+=============================
+Enable the Virtual Host Files
+=============================
 
 We can use the a2ensite tool to enable each of our sites like this:
 
@@ -65,9 +65,9 @@ When you are finished, you need to restart Apache to make these changes take eff
 
 ``sudo service apache2 restart``
 
-==================================
-Set Up Local Hosts File (Optional)
-==================================
+=======================
+Set Up Local Hosts File
+=======================
 
 If you are on a Mac or Linux computer, edit your local file with administrative privileges by typing:
 

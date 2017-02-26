@@ -36,7 +36,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
+    <link rel="next" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
+    <link rel="prev" title="Install LAMP in one command" href="lamp.html" />
   
    
 
@@ -50,6 +51,9 @@
              accesskey="I">index</a></li>
         <li class="right" >
           <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="lamp.html" title="Install LAMP in one command"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">CS Documentation  documentation</a> &#187;</li> 
       </ul>
@@ -62,7 +66,7 @@
   <div id="left-column">
     <div class="sphinxsidebar">
         <a href="
-    index.html" class="text-logo">CS Documentation</a>
+    index.html" class="text-logo">JCode Documentation</a>
         
 <div class="sidebar-block">
   <div class="sidebar-wrapper">
@@ -73,9 +77,13 @@
     
       <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
-<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">How To Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Install Sphinx Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-the-documentation-sources">Setting up the documentation sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-build">Running the build</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Install Sphinx Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
 </ul>
 
     
@@ -111,6 +119,21 @@
             
   <div class="section" id="install-sphinx-documentation">
 <h1>Install Sphinx Documentation<a class="headerlink" href="#install-sphinx-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Install Sphinx, either from a distribution package or from PyPI with</p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">Sphinx</span></code></p>
+<div class="section" id="setting-up-the-documentation-sources">
+<h2>Setting up the documentation sources<a class="headerlink" href="#setting-up-the-documentation-sources" title="Permalink to this headline">¶</a></h2>
+<p>Sphinx comes with a script called sphinx-quickstart that sets up a source directory and creates a default conf.py with the most useful configuration values from a few questions it asks you. Just run</p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sphinx-quickstart</span></code></p>
+</div>
+<div class="section" id="running-the-build">
+<h2>Running the build<a class="headerlink" href="#running-the-build" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sphinx-build</span> <span class="pre">-b</span> <span class="pre">html</span> <span class="pre">sourcedir</span> <span class="pre">builddir</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sphinx-build -b html . ../en
+</pre></div>
+</div>
+<p>Reference: <a class="reference external" href="http://www.sphinx-doc.org/en/1.5.1/contents.html">Sphinx documentation contents</a></p>
+</div>
 </div>
 
 
@@ -119,9 +142,12 @@
   <div class="footer-relations">
     
       <div class="pull-left">
-        <a class="btn btn-default" href="ejabberd.html" title="previous chapter (use the left arrow)">Install eJabberd XMPP Server on Ubuntu 14</a>
+        <a class="btn btn-default" href="lamp.html" title="previous chapter (use the left arrow)">Install LAMP in one command</a>
       </div>
     
+      <div class="pull-right">
+        <a class="btn btn-default" href="ejabberd.html" title="next chapter (use the right arrow)">Install eJabberd XMPP Server on Ubuntu 14</a>
+      </div>
     </div>
     <div class="clearer"></div>
   
@@ -136,6 +162,9 @@
              >index</a></li>
         <li class="right" >
           <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="lamp.html" title="Install LAMP in one command"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">CS Documentation  documentation</a> &#187;</li> 
       </ul>
@@ -147,7 +176,7 @@
 </script>
 <script type="text/javascript" src="_static/js/bootstrap.js"></script>
   <div class="footer">
-    &copy; Copyright 2017, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    &copy; Copyright 2014, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
   </div>
   </body>
 </html>
