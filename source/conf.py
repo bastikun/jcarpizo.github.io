@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CS Documentation'
+project = u'JCode Documentation'
 copyright = u'2014, Jasper Carpizo'
 author = u'Jasper Carpizo'
 
@@ -183,16 +183,7 @@ epub_exclude_files = ['search.html']
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
 
-import guzzle_sphinx_theme
-
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = 'guzzle_sphinx_theme'
-
-# Register the theme as an extension to generate a sitemap.xml
-extensions.append("guzzle_sphinx_theme")
-
-# Guzzle theme options (see theme.conf for more information)
-html_theme_options = {
-    # Set the name of the project to appear in the sidebar
-    "project_nav_name": "Online Code Documentation",
-}
+import t3SphinxThemeRtd
+html_theme = "t3SphinxThemeRtd"
+html_theme_path = [t3SphinxThemeRtd.get_html_theme_path()]
+html_theme_path.append(t3SphinxThemeRtd.get_html_theme_path())
