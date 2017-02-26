@@ -11,8 +11,8 @@ Welcome to Code Script's documentation!
 
    lamp
    sphinx
-   virtual-host
    ejabberd
+   virtual-host
 
 
 Indices and tables
