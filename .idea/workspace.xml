@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/ejabberd.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/ejabberd.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/index.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/index.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/lamp.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/lamp.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/sphinx.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/sphinx.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/virtual-host.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/virtual-host.doctree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Bold.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Bold.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/Lato-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Regular.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/Lato-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Bold.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Regular.ttf" afterPath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/objects.inv" afterPath="$PROJECT_DIR$/en/objects.inv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="$PROJECT_DIR$/en/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/css/badge_only.css" afterPath="$PROJECT_DIR$/en/_static/css/badge_only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/css/theme.css" afterPath="$PROJECT_DIR$/en/_static/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.js" afterPath="$PROJECT_DIR$/en/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.min.map" afterPath="$PROJECT_DIR$/en/_static/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/js/theme.js" afterPath="$PROJECT_DIR$/en/_static/js/theme.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="$PROJECT_DIR$/en/ejabberd.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="$PROJECT_DIR$/en/genindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
@@ -62,11 +51,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="make.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/make.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="189" column="42" lean-forward="false" selection-start-line="189" selection-start-column="42" selection-end-line="189" selection-end-column="42" />
+            <state relative-caret-position="1110">
+              <caret line="94" column="15" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -75,8 +74,8 @@
       <file leaf-file-name="virtual-host.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/virtual-host.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="900">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,6 +135,10 @@
       <find>highlight</find>
       <find>2017</find>
       <find>CS</find>
+      <find>Docu</find>
+      <find>Documentation</find>
+      <find>jcarpizo</find>
+      <find>documentation</find>
     </findStrings>
     <replaceStrings>
       <replace>style</replace>
@@ -327,23 +330,24 @@
       <workItem from="1488112596871" duration="2450000" />
       <workItem from="1488119506863" duration="1027000" />
       <workItem from="1488979677590" duration="1579000" />
+      <workItem from="1488983750839" duration="486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39723000" />
+    <option name="totallyTimeSpent" value="40209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="818" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31545064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39118457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39118457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -460,7 +464,6 @@
     <entry file="file://$PROJECT_DIR$/source/lamp.rst" />
     <entry file="file://$PROJECT_DIR$/source/ejabberd.rst" />
     <entry file="file://$PROJECT_DIR$/Makefile" />
-    <entry file="file://$PROJECT_DIR$/make.bat" />
     <entry file="file://$PROJECT_DIR$/index.rst" />
     <entry file="file://$PROJECT_DIR$/conf.py" />
     <entry file="file://$PROJECT_DIR$/ejabberd.rst" />
@@ -531,26 +534,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/snappy.png" />
-    <entry file="file://$PROJECT_DIR$/source/virtual-host.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/lamp.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -579,10 +566,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/make.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/virtual-host.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="189" column="42" lean-forward="false" selection-start-line="189" selection-start-column="42" selection-end-line="189" selection-end-column="42" />
+        <state relative-caret-position="1110">
+          <caret line="94" column="15" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="15" />
           <folding />
         </state>
       </provider>

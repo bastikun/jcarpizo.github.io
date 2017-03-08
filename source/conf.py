@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CS Documentation'
+project = u'jcarpizo.github.io'
 copyright = u'2014, Jasper Carpizo'
 author = u'Jasper Carpizo'
 
