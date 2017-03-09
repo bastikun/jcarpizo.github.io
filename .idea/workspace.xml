@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/ejabberd.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/ejabberd.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/index.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/index.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/lamp.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/lamp.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/sphinx.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/sphinx.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/virtual-host.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/virtual-host.doctree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/objects.inv" afterPath="$PROJECT_DIR$/en/objects.inv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="$PROJECT_DIR$/en/.buildinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="$PROJECT_DIR$/en/ejabberd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="$PROJECT_DIR$/en/genindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_sources/index.rst.txt" afterPath="$PROJECT_DIR$/en/_sources/index.rst.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_sources/lamp.rst.txt" afterPath="$PROJECT_DIR$/en/_sources/lamp.rst.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/lamp.html" afterPath="$PROJECT_DIR$/en/lamp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/search.html" afterPath="$PROJECT_DIR$/en/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/sphinx.html" afterPath="$PROJECT_DIR$/en/sphinx.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/virtual-host.html" afterPath="$PROJECT_DIR$/en/virtual-host.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/conf.py" afterPath="$PROJECT_DIR$/source/conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/objects.inv" afterPath="$PROJECT_DIR$/en/objects.inv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/searchindex.js" afterPath="$PROJECT_DIR$/en/searchindex.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="94" column="15" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="15" />
+            <state relative-caret-position="314">
+              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/source/virtual-host.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lamp.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lamp.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/lamp.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,8 +103,8 @@
       <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+            <state relative-caret-position="15">
+              <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -153,7 +152,6 @@
         <option value="$PROJECT_DIR$/index.rst" />
         <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/ejabberd.rst" />
-        <option value="$PROJECT_DIR$/source/lamp.rst" />
         <option value="$PROJECT_DIR$/source/ejabberd.rst" />
         <option value="$PROJECT_DIR$/_static/websupport.js" />
         <option value="$PROJECT_DIR$/ejabberd.html" />
@@ -162,8 +160,9 @@
         <option value="$PROJECT_DIR$/en/_static/guzzle.css" />
         <option value="$PROJECT_DIR$/source/virtual-host.rst" />
         <option value="$PROJECT_DIR$/source/sphinx.rst" />
-        <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/source/conf.py" />
+        <option value="$PROJECT_DIR$/source/index.rst" />
+        <option value="$PROJECT_DIR$/source/lamp.rst" />
       </list>
     </option>
   </component>
@@ -175,9 +174,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="818" />
+    <option name="x" value="51" />
+    <option name="y" value="24" />
+    <option name="width" value="1389" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -194,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,6 +223,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,23 +331,24 @@
       <workItem from="1488119506863" duration="1027000" />
       <workItem from="1488979677590" duration="1579000" />
       <workItem from="1488983750839" duration="486000" />
+      <workItem from="1489038921793" duration="996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40209000" />
+    <option name="totallyTimeSpent" value="41205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="818" extended-state="6" />
-    <editor active="true" />
+    <frame x="51" y="24" width="1389" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32442465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39118457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38618925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -534,14 +535,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/snappy.png" />
-    <entry file="file://$PROJECT_DIR$/source/lamp.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/sphinx.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -554,14 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -585,15 +570,31 @@
     <entry file="file://$PROJECT_DIR$/source/virtual-host.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="94" column="15" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="15" />
+        <state relative-caret-position="314">
+          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lamp.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
