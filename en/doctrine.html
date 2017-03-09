@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Install Sphinx Documentation &#8212; jcarpizo.github.io  documentation</title>
+    <title>Doctrine Best Practices &#8212; jcarpizo.github.io  documentation</title>
     
     <link rel="stylesheet" href="_static/solar.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -26,8 +26,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
-    <link rel="prev" title="Doctrine Best Practices" href="doctrine.html" /><link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="next" title="Install Sphinx Documentation" href="sphinx.html" />
+    <link rel="prev" title="Install LAMP in one command" href="lamp.html" /><link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 <link href="_static/solarized-dark.css" rel="stylesheet">
   </head>
   <body role="document">
@@ -38,10 +38,10 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
+          <a href="sphinx.html" title="Install Sphinx Documentation"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="doctrine.html" title="Doctrine Best Practices"
+          <a href="lamp.html" title="Install LAMP in one command"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>
@@ -50,23 +50,23 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Install Sphinx Documentation</a><ul>
-<li><a class="reference internal" href="#setting-up-the-documentation-sources">Setting up the documentation sources</a></li>
-<li><a class="reference internal" href="#running-the-build">Running the build</a></li>
+<li><a class="reference internal" href="#">Doctrine Best Practices</a><ul>
+<li><a class="reference internal" href="#marco-pivetta-doctrine-best-practices">Marco Pivetta &#8220;Doctrine Best Practices&#8221;</a></li>
+<li><a class="reference internal" href="#doctrine-orm-good-practices-and-tricks">Doctrine ORM Good Practices and Tricks</a></li>
 </ul>
 </li>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="doctrine.html"
-                        title="previous chapter">Doctrine Best Practices</a></p>
+  <p class="topless"><a href="lamp.html"
+                        title="previous chapter">Install LAMP in one command</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="ejabberd.html"
-                        title="next chapter">Install eJabberd XMPP Server on Ubuntu 14</a></p>
+  <p class="topless"><a href="sphinx.html"
+                        title="next chapter">Install Sphinx Documentation</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/sphinx.rst.txt"
+      <li><a href="_sources/doctrine.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -88,23 +88,18 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="install-sphinx-documentation">
-<h1>Install Sphinx Documentation<a class="headerlink" href="#install-sphinx-documentation" title="Permalink to this headline">¶</a></h1>
-<p>Install Sphinx, either from a distribution package or from PyPI with</p>
-<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">Sphinx</span></code></p>
-<div class="section" id="setting-up-the-documentation-sources">
-<h2>Setting up the documentation sources<a class="headerlink" href="#setting-up-the-documentation-sources" title="Permalink to this headline">¶</a></h2>
-<p>Sphinx comes with a script called sphinx-quickstart that sets up a source directory and creates a default conf.py with the most useful configuration values from a few questions it asks you. Just run</p>
-<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sphinx-quickstart</span></code></p>
+  <div class="section" id="doctrine-best-practices">
+<h1>Doctrine Best Practices<a class="headerlink" href="#doctrine-best-practices" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">DOCTRINE: A JSR-317 / Hibernate Inspired Object Relational Mapper</p>
 </div>
-<div class="section" id="running-the-build">
-<h2>Running the build<a class="headerlink" href="#running-the-build" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sphinx-build</span> <span class="pre">-b</span> <span class="pre">html</span> <span class="pre">sourcedir</span> <span class="pre">builddir</span></code></p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ sphinx-build -b html . ../en
-</pre></div>
-</div>
-<p>Reference: <a class="reference external" href="http://www.sphinx-doc.org/en/1.5.1/contents.html">Sphinx documentation contents</a></p>
-</div>
+<div class="section" id="marco-pivetta-doctrine-best-practices">
+<h2>Marco Pivetta &#8220;Doctrine Best Practices&#8221;<a class="headerlink" href="#marco-pivetta-doctrine-best-practices" title="Permalink to this headline">¶</a></h2>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/WW2qPKukoZY" frameborder="0" allowfullscreen></iframe></div>
+<div class="section" id="doctrine-orm-good-practices-and-tricks">
+<h2>Doctrine ORM Good Practices and Tricks<a class="headerlink" href="#doctrine-orm-good-practices-and-tricks" title="Permalink to this headline">¶</a></h2>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/rzGeNYC3oz0" frameborder="0" allowfullscreen></iframe></div>
 </div>
 
 
@@ -120,10 +115,10 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
+          <a href="sphinx.html" title="Install Sphinx Documentation"
              >next</a> |</li>
         <li class="right" >
-          <a href="doctrine.html" title="Doctrine Best Practices"
+          <a href="lamp.html" title="Install LAMP in one command"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>

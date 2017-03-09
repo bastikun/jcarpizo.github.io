@@ -6,6 +6,7 @@ Welcome to jcarpizo.github.io documentation!
    :caption: Contents:
 
    lamp
+   doctrine
    sphinx
    ejabberd
    virtual-host
