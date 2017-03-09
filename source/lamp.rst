@@ -24,7 +24,9 @@ The only thing we need to do is explicitly enable the PHP mcrypt and mbstring ex
 
 ``sudo service apache2 restart``
 
-**You can now access the web interface by visiting your server's domain name or public IP address followed by /phpmyadmin:**
+.. hint::
+
+   You can now access the web interface by visiting your server's domain name or public IP address followed by /phpmyadmin
 
 Re-configure phpMyadmin
 -----------------------
