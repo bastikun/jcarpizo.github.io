@@ -7,7 +7,6 @@ How Kris Builds Symfony Apps
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    lamp
    doctrine

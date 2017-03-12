@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/index.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/index.doctree" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_sources/index.rst.txt" afterPath="$PROJECT_DIR$/en/_sources/index.rst.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_static/jquery.min.map" afterPath="$PROJECT_DIR$/en/_static/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/lamp.html" afterPath="$PROJECT_DIR$/en/lamp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/searchindex.js" afterPath="$PROJECT_DIR$/en/searchindex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/doctrine.rst" afterPath="$PROJECT_DIR$/source/doctrine.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.rst" afterPath="$PROJECT_DIR$/source/index.rst" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +59,8 @@
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
-              <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="187" column="26" lean-forward="true" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -81,27 +90,27 @@
         <entry file="file://$PROJECT_DIR$/source/lamp.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="795">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="53" selection-end-column="0" />
+              <caret line="53" column="0" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doctrine.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doctrine.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/doctrine.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="270">
+              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -127,7 +136,6 @@
       <find>source/</find>
       <find>_static</find>
       <find>_stat</find>
-      <find>import</find>
       <find>highlight</find>
       <find>2017</find>
       <find>CS</find>
@@ -135,6 +143,8 @@
       <find>Documentation</find>
       <find>jcarpizo</find>
       <find>documentation</find>
+      <find>import sphinx_bootstrap_theme</find>
+      <find>import</find>
     </findStrings>
     <replaceStrings>
       <replace>style</replace>
@@ -157,10 +167,10 @@
         <option value="$PROJECT_DIR$/en/_static/guzzle.css" />
         <option value="$PROJECT_DIR$/source/virtual-host.rst" />
         <option value="$PROJECT_DIR$/source/sphinx.rst" />
-        <option value="$PROJECT_DIR$/source/conf.py" />
         <option value="$PROJECT_DIR$/source/lamp.rst" />
-        <option value="$PROJECT_DIR$/source/doctrine.rst" />
         <option value="$PROJECT_DIR$/source/index.rst" />
+        <option value="$PROJECT_DIR$/source/conf.py" />
+        <option value="$PROJECT_DIR$/source/doctrine.rst" />
       </list>
     </option>
   </component>
@@ -331,12 +341,12 @@
       <workItem from="1488983750839" duration="486000" />
       <workItem from="1489038921793" duration="996000" />
       <workItem from="1489060393384" duration="952000" />
-      <workItem from="1489240182258" duration="593000" />
+      <workItem from="1489240182258" duration="1587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42750000" />
+    <option name="totallyTimeSpent" value="43744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
@@ -560,18 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/lamp.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="53" selection-end-column="0" />
+          <caret line="53" column="0" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -584,10 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/doctrine.rst">
+    <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="187" column="26" lean-forward="true" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -595,7 +597,15 @@
     <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/doctrine.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding />
         </state>
       </provider>
