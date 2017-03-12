@@ -5,12 +5,6 @@ Doctrine Best Practices
 
    DOCTRINE: A JSR-317 / Hibernate Inspired Object Relational Mapper
 
-Marco Pivetta "Doctrine Best Practices"
----------------------------------------
-.. raw:: html
-
-        <iframe width="654" height="380" src="https://www.youtube.com/embed/WW2qPKukoZY" frameborder="0" allowfullscreen></iframe>
-
 Doctrine ORM Good Practices and Tricks
 --------------------------------------
 
