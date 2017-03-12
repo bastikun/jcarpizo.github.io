@@ -2,13 +2,401 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ea8b85-512f-424c-b351-2060cebd946d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/doctrine.doctree" afterPath="$PROJECT_DIR$/en/.doctrees/doctrine.doctree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="$PROJECT_DIR$/en/.doctrees/environment.pickle" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.buildinfo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/doctrine.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/ejabberd.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/environment.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/index.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/lamp.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/routing.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/sphinx.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.doctrees/virtual-host.doctree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/.nojekyll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/doctrine.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/ejabberd.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/index.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/lamp.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/routing.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/sphinx.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_sources/virtual-host.rst.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/agogo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/arrows.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/background_b01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bg-gradient.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bgfooter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bgtop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bizstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bizstyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bl-corner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-2.3.2/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-3.3.6/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-sphinx.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap-sphinx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/amelia/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/cerulean/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/cosmo/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/cyborg/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/flatly/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/journal/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/readable/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/simplex/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/slate/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/spacelab/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/spruce/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/superhero/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-2.3.2/united/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/cerulean/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/cosmo/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/custom/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/cyborg/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/darkly/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/flatly/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/journal/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/lumen/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/paper/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/readable/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/sandstone/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/simplex/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/slate/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/spacelab/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/superhero/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/united/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bootswatch-3.3.6/yeti/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/br-corner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/bullet_white.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/caution.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/classic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/comment-bright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/comment-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/configurationblock.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/configurationblock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/contents.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/__theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/adctheme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/admonition.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/badge.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/badge_only.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/badge_only.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/btn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/codeblock.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/rst-content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/rst-pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/t3more.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/t3more.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/toctree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/up-button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/vendor/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/vendor/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/vendor/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/vendor/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css/wrapper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css3-mediaqueries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/css3-mediaqueries_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/darkmetal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/dialog-note.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/dialog-seealso.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/dialog-todo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/dialog-topic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/dialog-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/disk.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/doctools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/down-pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/epub.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Inconsolata.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/RobotoSlab-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Share-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Share-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Share-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Share-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/Share-TechMono.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/eot/SourceCodePro-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/eot/SourceCodePro-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/otf/SourceCodePro-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/otf/SourceCodePro-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/svg/SourceCodePro-Bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/svg/SourceCodePro-Regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/ttf/SourceCodePro-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/ttf/SourceCodePro-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/woff/SourceCodePro-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceCodePro/woff/SourceCodePro-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/eot/SourceSansPro-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/eot/SourceSansPro-BoldIt.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/eot/SourceSansPro-It.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/eot/SourceSansPro-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/otf/SourceSansPro-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/otf/SourceSansPro-BoldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/otf/SourceSansPro-It.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/otf/SourceSansPro-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/ttf/SourceSansPro-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/ttf/SourceSansPro-BoldIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/ttf/SourceSansPro-It.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/ttf/SourceSansPro-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/woff/SourceSansPro-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/woff/SourceSansPro-BoldIt.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/woff/SourceSansPro-It.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/SourceSansPro/woff/SourceSansPro-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Bold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-BoldItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-BoldItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-BoldItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-BoldItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBoldItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBoldItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBoldItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-ExtraBoldItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Italic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Italic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Italic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Italic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-LightItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-LightItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-LightItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-LightItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Semibold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-Semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-SemiboldItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-SemiboldItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-SemiboldItalic-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/fonts/OpenSans-SemiboldItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/open-sans/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/EOT/SourceSerifPro-Black.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/EOT/SourceSerifPro-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/EOT/SourceSerifPro-ExtraLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/EOT/SourceSerifPro-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/EOT/SourceSerifPro-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/EOT/SourceSerifPro-Semibold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/OTF/SourceSerifPro-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/OTF/SourceSerifPro-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/OTF/SourceSerifPro-ExtraLight.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/OTF/SourceSerifPro-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/OTF/SourceSerifPro-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/OTF/SourceSerifPro-Semibold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/ReadMe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/SourceSerifProReadMe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/TTF/SourceSerifPro-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/TTF/SourceSerifPro-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/TTF/SourceSerifPro-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/TTF/SourceSerifPro-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/TTF/SourceSerifPro-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/TTF/SourceSerifPro-Semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Black.otf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Bold.otf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-ExtraLight.otf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Light.otf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Regular.otf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/OTF/SourceSerifPro-Semibold.otf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/TTF/SourceSerifPro-Black.ttf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/TTF/SourceSerifPro-Bold.ttf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/TTF/SourceSerifPro-ExtraLight.ttf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/TTF/SourceSerifPro-Light.ttf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/TTF/SourceSerifPro-Regular.ttf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/WOFF/TTF/SourceSerifPro-Semibold.ttf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/fonts/source-serif-pro/source-serif-pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/footerbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/guzzle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/headerbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/arrow-head-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/breadcrumb_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/documentation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/header_sm_mid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/invisible.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/scrn1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/scrn2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/searchfield_leftcap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/searchfield_repeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/searchfield_rightcap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/title_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/triangle_closed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/triangle_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/triangle_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/typo3-documentation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/typo3-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/vendor/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/vendor/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/vendor/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/vendor/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/img/vendor/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-1.11.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-3.1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/external/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/images/ui-icons_444444_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/images/ui-icons_555555_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/images/ui-icons_777620_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/images/ui-icons_777777_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/images/ui-icons_cc0000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.structure.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.structure.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery-ui/jquery-ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/__theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/__theme.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/jquery-1.11.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/jquery-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/modernizr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/t3autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/t3autocomplete2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/toc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/vendor/enscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/vendor/jquery.fancybox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/vendor/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/js/vendor/js.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/metal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/middlebg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/nature.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/navigation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/note.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/pd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/pd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/pygments.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/pyramid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/scrolls.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/searchtools-ORIGINAL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/searchtools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/servergrove.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/sidebox-foot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/sidebox.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/solar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/solarized-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/sphinxdoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/subtle_dots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/t3SphinxThemeRtd-3.6.4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/theme_extras.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/tip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/traditional.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/ul-corner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/underscore-1.3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/up-pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/ur-corner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/watermark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/watermark_blur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/_static/websupport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/doctrine.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/ejabberd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/genindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/lamp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/objects.inv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/routing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/searchindex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/sphinx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/virtual-host.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/_sources/doctrine.rst.txt" afterPath="$PROJECT_DIR$/en/_sources/doctrine.rst.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/doctrine.html" afterPath="$PROJECT_DIR$/en/doctrine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/searchindex.js" afterPath="$PROJECT_DIR$/en/searchindex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +421,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="2190">
+              <caret line="146" column="10" lean-forward="true" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -57,7 +445,7 @@
         <entry file="file://$PROJECT_DIR$/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="187" column="26" lean-forward="true" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
+              <caret line="187" column="26" lean-forward="false" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -93,11 +481,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doctrine.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doctrine.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/doctrine.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -209,20 +597,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jcarpizo.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcarpizo.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcarpizo.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,12 +712,12 @@
       <workItem from="1488983750839" duration="486000" />
       <workItem from="1489038921793" duration="996000" />
       <workItem from="1489060393384" duration="952000" />
-      <workItem from="1489240182258" duration="1852000" />
+      <workItem from="1489240182258" duration="2282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44009000" />
+    <option name="totallyTimeSpent" value="44439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="21" width="1321" height="747" extended-state="6" />
@@ -353,6 +727,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38437977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -363,7 +738,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -551,14 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/virtual-host.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -586,7 +952,7 @@
     <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="187" column="26" lean-forward="true" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
+          <caret line="187" column="26" lean-forward="false" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -602,7 +968,15 @@
     <entry file="file://$PROJECT_DIR$/source/doctrine.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="146" column="10" lean-forward="true" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
           <folding />
         </state>
       </provider>
