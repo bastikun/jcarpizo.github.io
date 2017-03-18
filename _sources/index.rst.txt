@@ -12,6 +12,7 @@ How Kris Builds Symfony Apps
    doctrine
    sphinx
    ejabberd
+   solid
    virtual-host
 
 
