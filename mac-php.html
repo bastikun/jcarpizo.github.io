@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <title>Installing Node.js via package manager &#8212; jcarpizo.github.io  documentation</title>
+    <title>Update PHP on Mac OS X &#8212; jcarpizo.github.io  documentation</title>
     
     <link rel="stylesheet" href="_static/guzzle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -36,7 +36,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS" href="virtual-host.html" />
+    <link rel="next" title="Install MySQL on Mac OS X" href="mac-mysql.html" />
+    <link rel="prev" title="Install LAMP in one command" href="lamp.html" />
   
    
 
@@ -49,7 +50,10 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="virtual-host.html" title="Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS"
+          <a href="mac-mysql.html" title="Install MySQL on Mac OS X"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="lamp.html" title="Install LAMP in one command"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>
@@ -73,7 +77,13 @@
     
       <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mac-php.html">Update PHP on Mac OS X</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Update PHP on Mac OS X</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installing-php">Installing PHP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-apache">Configuring Apache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#updating-your-path">Updating your PATH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-php">Configuring PHP</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="mac-mysql.html">Install MySQL on Mac OS X</a></li>
 <li class="toctree-l1"><a class="reference internal" href="doctrine.html">Doctrine Best Practices</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sphinx.html">Install Sphinx Documentation</a></li>
@@ -82,10 +92,7 @@
 <li class="toctree-l1"><a class="reference internal" href="multiple-php.html">Switch between Multiple PHP Version on Ubuntu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="solid.html">SOLID Principles in PHP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="virtual-host.html">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installing Node.js via package manager</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#debian-and-ubuntu-based-linux-distributions">Debian and Ubuntu based Linux distributions</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="install-node.html">Installing Node.js via package manager</a></li>
 </ul>
 
     
@@ -113,28 +120,41 @@
             <ol class="breadcrumb">
               <li><a href="index.html">Docs</a></li>
               
-              <li>Installing Node.js via package manager</li>
+              <li>Update PHP on Mac OS X</li>
             </ol>
           </div>
           
           <div class="document clearer body">
             
-  <div class="section" id="installing-node-js-via-package-manager">
-<h1>Installing Node.js via package manager<a class="headerlink" href="#installing-node-js-via-package-manager" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="debian-and-ubuntu-based-linux-distributions">
-<h2>Debian and Ubuntu based Linux distributions<a class="headerlink" href="#debian-and-ubuntu-based-linux-distributions" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal"><span class="pre">curl</span> <span class="pre">-sL</span> <span class="pre">https://deb.nodesource.com/setup_6.x</span> <span class="pre">|</span> <span class="pre">sudo</span> <span class="pre">-E</span> <span class="pre">bash</span> <span class="pre">-</span></code></p>
-<p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">nodejs</span></code></p>
-<div class="section" id="alternatively-for-node-js-8">
-<h3>Alternatively, for Node.js 8:<a class="headerlink" href="#alternatively-for-node-js-8" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal"><span class="pre">curl</span> <span class="pre">-sL</span> <span class="pre">https://deb.nodesource.com/setup_8.x</span> <span class="pre">|</span> <span class="pre">sudo</span> <span class="pre">-E</span> <span class="pre">bash</span> <span class="pre">-</span></code></p>
-<p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">nodejs</span></code></p>
+  <div class="section" id="update-php-on-mac-os-x">
+<h1>Update PHP on Mac OS X<a class="headerlink" href="#update-php-on-mac-os-x" title="Permalink to this headline">¶</a></h1>
+<p>How to upgrade or install a different version of PHP on Mac OS X.</p>
+<div class="section" id="installing-php">
+<h2>Installing PHP<a class="headerlink" href="#installing-php" title="Permalink to this headline">¶</a></h2>
+<p>First, choose the version of PHP you want to install. In this example, I’ll install PHP 7.1 as that is the latest stable version of PHP. However, if you want to install PHP 7.0 that is available as well.</p>
+<p><code class="docutils literal"><span class="pre">curl</span> <span class="pre">-s</span> <span class="pre">http://php-osx.liip.ch/install.sh</span> <span class="pre">|</span> <span class="pre">bash</span> <span class="pre">-s</span> <span class="pre">7.1</span></code></p>
 </div>
-<div class="section" id="optional-install-build-tools">
-<h3>Optional: install build tools<a class="headerlink" href="#optional-install-build-tools" title="Permalink to this headline">¶</a></h3>
-<p>To compile and install native addons from npm you may also need to install build tools:</p>
-<p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">build-essential</span></code></p>
+<div class="section" id="configuring-apache">
+<h2>Configuring Apache<a class="headerlink" href="#configuring-apache" title="Permalink to this headline">¶</a></h2>
+<p>Provided you are using the pre-installed version of Apache, PHP OSX will add the /etc/apache2/other/+php-osx.conf configuration file which will automatically be loaded by Apache.</p>
+<p>If you had previously enabled PHP (as I did), you’ll need to comment out the following line in /etc/apache2/httpd.conf:</p>
+<p><code class="docutils literal"><span class="pre">LoadModule</span> <span class="pre">php5_module</span> <span class="pre">/usr/local/php5/libphp5.so</span></code></p>
 </div>
+<div class="section" id="updating-your-path">
+<h2>Updating your PATH<a class="headerlink" href="#updating-your-path" title="Permalink to this headline">¶</a></h2>
+<p>Although Apache will now run the new version of PHP, the command line will not. In order for the command line to use the new version of PHP you will need to update your PATH.</p>
+<p><code class="docutils literal"><span class="pre">export</span> <span class="pre">PATH=/usr/local/php5/bin:$PATH</span></code></p>
+<p>If you don’t want to run the command above every time you open a new terminal, you can update the PATH in your .bash_profile.</p>
+<p><code class="docutils literal"><span class="pre">vi</span> <span class="pre">~/.bash_profile</span></code></p>
+</div>
+<div class="section" id="configuring-php">
+<h2>Configuring PHP<a class="headerlink" href="#configuring-php" title="Permalink to this headline">¶</a></h2>
+<p>Finally, you will want to update some of the PHP configuration values. PHP OSX installs a PHP INI file for you to change. To edit this file, run:</p>
+<p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">vi</span> <span class="pre">/usr/local/php5/php.d/99-liip-developer.ini</span></code></p>
+<p>If you kept all of your local PHP configuration within a single INI file (as I did), you can simply append it to the PHP OSX file with:</p>
+<p><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">cat</span> <span class="pre">/Library/Server/Web/Config/php/local.ini</span> <span class="pre">&gt;&gt;</span> <span class="pre">/usr/local/php5/php.d/99-liip-developer.ini</span></code></p>
+<p>That’s it!</p>
+<p>Now you’ll just need to review your PHP code to ensure it’s compatible with your newly installed PHP version. And for that, I recommend PHP Shift.</p>
 </div>
 </div>
 
@@ -144,9 +164,12 @@
   <div class="footer-relations">
     
       <div class="pull-left">
-        <a class="btn btn-default" href="virtual-host.html" title="previous chapter (use the left arrow)">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a>
+        <a class="btn btn-default" href="lamp.html" title="previous chapter (use the left arrow)">Install LAMP in one command</a>
       </div>
     
+      <div class="pull-right">
+        <a class="btn btn-default" href="mac-mysql.html" title="next chapter (use the right arrow)">Install MySQL on Mac OS X</a>
+      </div>
     </div>
     <div class="clearer"></div>
   
@@ -160,7 +183,10 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="virtual-host.html" title="Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS"
+          <a href="mac-mysql.html" title="Install MySQL on Mac OS X"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="lamp.html" title="Install LAMP in one command"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>

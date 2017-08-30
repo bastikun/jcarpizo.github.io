@@ -1,8 +1,12 @@
+[ Dev Online Documentation ]
+============================
 
 .. toctree::
    :maxdepth: 2
 
    lamp
+   mac-php
+   mac-mysql
    doctrine
    sphinx
    ejabberd
@@ -11,9 +15,3 @@
    solid
    virtual-host
    install-node
-
-
-Indices and tables
-==================
-
-* :ref:`search`

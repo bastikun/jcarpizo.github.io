@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <title>Doctrine Best Practices &#8212; jcarpizo.github.io  documentation</title>
+    <title>Install MySQL on Mac OS X &#8212; jcarpizo.github.io  documentation</title>
     
     <link rel="stylesheet" href="_static/guzzle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -36,8 +36,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Install Sphinx Documentation" href="sphinx.html" />
-    <link rel="prev" title="Install MySQL on Mac OS X" href="mac-mysql.html" />
+    <link rel="next" title="Doctrine Best Practices" href="doctrine.html" />
+    <link rel="prev" title="Update PHP on Mac OS X" href="mac-php.html" />
   
    
 
@@ -50,10 +50,10 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="sphinx.html" title="Install Sphinx Documentation"
+          <a href="doctrine.html" title="Doctrine Best Practices"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="mac-mysql.html" title="Install MySQL on Mac OS X"
+          <a href="mac-php.html" title="Update PHP on Mac OS X"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>
@@ -78,11 +78,12 @@
       <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mac-php.html">Update PHP on Mac OS X</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mac-mysql.html">Install MySQL on Mac OS X</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Doctrine Best Practices</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#doctrine-orm-good-practices-and-tricks">Doctrine ORM Good Practices and Tricks</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Install MySQL on Mac OS X</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#connect-php-and-mysql">Connect PHP and MySQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#additional-configuration-optional">Additional Configuration (optional)</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="doctrine.html">Doctrine Best Practices</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sphinx.html">Install Sphinx Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
 <li class="toctree-l1"><a class="reference internal" href="php-install.html">Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA</a></li>
@@ -117,21 +118,59 @@
             <ol class="breadcrumb">
               <li><a href="index.html">Docs</a></li>
               
-              <li>Doctrine Best Practices</li>
+              <li>Install MySQL on Mac OS X</li>
             </ol>
           </div>
           
           <div class="document clearer body">
             
-  <div class="section" id="doctrine-best-practices">
-<h1>Doctrine Best Practices<a class="headerlink" href="#doctrine-best-practices" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="install-mysql-on-mac-os-x">
+<h1>Install MySQL on Mac OS X<a class="headerlink" href="#install-mysql-on-mac-os-x" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li>Download the MySQL DMG for Mac OS X</li>
+<li>Install MySQL</li>
+</ol>
+<p>Creating aliases for mysql and mysqladmin. However there are other commands that are helpful such as mysqldump. Instead, I updated my path to include /usr/local/mysql/bin.</p>
+<p><code class="docutils literal"><span class="pre">export</span> <span class="pre">PATH=/usr/local/mysql/bin:$PATH</span></code></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">DOCTRINE: A JSR-317 / Hibernate Inspired Object Relational Mapper</p>
+<p class="last">You will need to open a new Terminal window or run the command above for your path to update.</p>
 </div>
-<div class="section" id="doctrine-orm-good-practices-and-tricks">
-<h2>Doctrine ORM Good Practices and Tricks<a class="headerlink" href="#doctrine-orm-good-practices-and-tricks" title="Permalink to this headline">¶</a></h2>
-<iframe width="654" height="380" src="https://www.youtube.com/embed/rzGeNYC3oz0" frameborder="0" allowfullscreen></iframe></div>
+<p>I also run <strong>mysql_secure_installation</strong>. While this isn’t necessary, it’s good practice.</p>
+<div class="section" id="connect-php-and-mysql">
+<h2>Connect PHP and MySQL<a class="headerlink" href="#connect-php-and-mysql" title="Permalink to this headline">¶</a></h2>
+<p>You need to ensure PHP and MySQL can communicate with one another.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">var</span>
+<span class="n">mkdir</span> <span class="n">mysql</span>
+<span class="n">cd</span> <span class="n">mysql</span>
+<span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">mysql</span><span class="o">.</span><span class="n">sock</span> <span class="n">mysql</span><span class="o">.</span><span class="n">sock</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">var</span>
+<span class="n">sudo</span> <span class="n">mkdir</span> <span class="n">mysql</span>
+<span class="n">sudo</span> <span class="n">chmod</span> <span class="mi">755</span> <span class="n">mysql</span>
+<span class="n">cd</span> <span class="n">mysql</span>
+<span class="n">sudo</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">mysql</span><span class="o">.</span><span class="n">sock</span> <span class="n">mysql</span><span class="o">.</span><span class="n">sock</span>
+</pre></div>
+</div>
+<p>If you have /var/mysql/mysql.sock but no /tmp/mysql.sock then</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">tmp</span>
+<span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">mysql</span><span class="o">/</span><span class="n">mysql</span><span class="o">.</span><span class="n">sock</span> <span class="n">mysql</span><span class="o">.</span><span class="n">sock</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="additional-configuration-optional">
+<h2>Additional Configuration (optional)<a class="headerlink" href="#additional-configuration-optional" title="Permalink to this headline">¶</a></h2>
+<p>The default configuration for Apache 2.4 on OS X Yosemite seemed pretty lean. For example, common modules like <strong>mod_rewrite</strong> were disabled. You may consider enabling this now to avoid forgetting they are disabled in the future.</p>
+<p>I edited my Apache Configuration:</p>
+<p><code class="docutils literal"><span class="pre">vi</span> <span class="pre">/etc/apache2/httpd.conf</span></code></p>
+<p>I uncommented the following lines (remove #):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LoadModule</span> <span class="n">deflate_module</span> <span class="n">libexec</span><span class="o">/</span><span class="n">apache2</span><span class="o">/</span><span class="n">mod_deflate</span><span class="o">.</span><span class="n">so</span>
+<span class="n">LoadModule</span> <span class="n">expires_module</span> <span class="n">libexec</span><span class="o">/</span><span class="n">apache2</span><span class="o">/</span><span class="n">mod_expires</span><span class="o">.</span><span class="n">so</span>
+<span class="n">LoadModule</span> <span class="n">rewrite_module</span> <span class="n">libexec</span><span class="o">/</span><span class="n">apache2</span><span class="o">/</span><span class="n">mod_rewrite</span><span class="o">.</span><span class="n">so</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -140,11 +179,11 @@
   <div class="footer-relations">
     
       <div class="pull-left">
-        <a class="btn btn-default" href="mac-mysql.html" title="previous chapter (use the left arrow)">Install MySQL on Mac OS X</a>
+        <a class="btn btn-default" href="mac-php.html" title="previous chapter (use the left arrow)">Update PHP on Mac OS X</a>
       </div>
     
       <div class="pull-right">
-        <a class="btn btn-default" href="sphinx.html" title="next chapter (use the right arrow)">Install Sphinx Documentation</a>
+        <a class="btn btn-default" href="doctrine.html" title="next chapter (use the right arrow)">Doctrine Best Practices</a>
       </div>
     </div>
     <div class="clearer"></div>
@@ -159,10 +198,10 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="sphinx.html" title="Install Sphinx Documentation"
+          <a href="doctrine.html" title="Doctrine Best Practices"
              >next</a> |</li>
         <li class="right" >
-          <a href="mac-mysql.html" title="Install MySQL on Mac OS X"
+          <a href="mac-php.html" title="Update PHP on Mac OS X"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>
