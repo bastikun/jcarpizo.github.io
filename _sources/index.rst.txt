@@ -1,9 +1,3 @@
-How Kris Builds Symfony Apps
-============================
-
-.. raw:: html
-
-   <iframe width="654" height="380" src="https://www.youtube.com/embed/W8MOIOyPbmM" frameborder="0" allowfullscreen></iframe>
 
 .. toctree::
    :maxdepth: 2
@@ -12,14 +6,14 @@ How Kris Builds Symfony Apps
    doctrine
    sphinx
    ejabberd
+   php-install
+   multiple-php
    solid
    virtual-host
-
-
+   install-node
 
 
 Indices and tables
 ==================
 
-* :ref:`genindex`
 * :ref:`search`

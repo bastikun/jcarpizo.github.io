@@ -1,0 +1,208 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA &#8212; jcarpizo.github.io  documentation</title>
+    
+    <link rel="stylesheet" href="_static/guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Switch between Multiple PHP Version on Ubuntu" href="multiple-php.html" />
+    <link rel="prev" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
+  
+   
+
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="multiple-php.html" title="Switch between Multiple PHP Version on Ubuntu"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar">
+        <a href="
+    index.html" class="text-logo">jcarpizo.github.io</a>
+        
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doctrine.html">Doctrine Best Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sphinx.html">Install Sphinx Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#install-php-5-6-on-ubuntu">Install PHP 5.6 on Ubuntu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-php-7-1-on-ubuntu">Install PHP 7.1 on Ubuntu</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="multiple-php.html">Switch between Multiple PHP Version on Ubuntu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="solid.html">SOLID Principles in PHP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
+</ul>
+
+    
+  </div>
+</div>
+        
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="index.html">Docs</a></li>
+              
+              <li>Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <div class="section" id="install-php-5-6-or-php-7-1-on-ubuntu-16-04-14-04-using-ppa">
+<h1>Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA<a class="headerlink" href="#install-php-5-6-or-php-7-1-on-ubuntu-16-04-14-04-using-ppa" title="Permalink to this headline">¶</a></h1>
+<p>Installing PHP 5.6 or PHP 7.1 using PPA on Ubuntu 16.10, 16.04 LTS, 14.04 LTS or 12.04 LTS systems. If you have already have higher version installed on your system and you need to install lower version, then you have to remove higher version first and remove apt repository from system.</p>
+<div class="section" id="install-php-5-6-on-ubuntu">
+<h2>Install PHP 5.6 on Ubuntu<a class="headerlink" href="#install-php-5-6-on-ubuntu" title="Permalink to this headline">¶</a></h2>
+<p>Use the following set of command to add PPA for PHP 5.6 in your Ubuntu system and install PHP 5.6.</p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python-software-properties</span></code></p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">add-apt-repository</span> <span class="pre">ppa:ondrej/php</span></code></p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">update</span></code></p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">php5.6</span></code></p>
+<div class="section" id="check-installed-php-version">
+<h3>Check Installed PHP Version:<a class="headerlink" href="#check-installed-php-version" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">php</span> <span class="pre">-v</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">PHP</span> <span class="mf">5.6</span><span class="o">.</span><span class="mi">29</span><span class="o">-</span><span class="mi">1</span><span class="o">+</span><span class="n">deb</span><span class="o">.</span><span class="n">sury</span><span class="o">.</span><span class="n">org</span><span class="o">~</span><span class="n">xenial</span><span class="o">+</span><span class="mi">1</span> <span class="p">(</span><span class="n">cli</span><span class="p">)</span>
+<span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">1997</span><span class="o">-</span><span class="mi">2016</span> <span class="n">The</span> <span class="n">PHP</span> <span class="n">Group</span>
+<span class="n">Zend</span> <span class="n">Engine</span> <span class="n">v2</span><span class="o">.</span><span class="mf">6.0</span><span class="p">,</span> <span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">1998</span><span class="o">-</span><span class="mi">2016</span> <span class="n">Zend</span> <span class="n">Technologies</span>
+<span class="k">with</span> <span class="n">Zend</span> <span class="n">OPcache</span> <span class="n">v7</span><span class="o">.</span><span class="mf">0.6</span><span class="o">-</span><span class="n">dev</span><span class="p">,</span> <span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">1999</span><span class="o">-</span><span class="mi">2016</span><span class="p">,</span> <span class="n">by</span> <span class="n">Zend</span> <span class="n">Technologies</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="install-php-7-1-on-ubuntu">
+<h2>Install PHP 7.1 on Ubuntu<a class="headerlink" href="#install-php-7-1-on-ubuntu" title="Permalink to this headline">¶</a></h2>
+<p>Use the following set of command to add PPA for PHP 7.1 in your Ubuntu system and install PHP 7.1.</p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python-software-properties</span></code></p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">add-apt-repository</span> <span class="pre">ppa:ondrej/php</span></code></p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">update</span></code></p>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">-y</span> <span class="pre">php7.1</span></code></p>
+<div class="section" id="id1">
+<h3>Check Installed PHP Version:<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">$</span> <span class="pre">php</span> <span class="pre">-v</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">PHP</span> <span class="mf">7.1</span><span class="o">.</span><span class="mi">0</span><span class="o">-</span><span class="mi">5</span><span class="o">+</span><span class="n">deb</span><span class="o">.</span><span class="n">sury</span><span class="o">.</span><span class="n">org</span><span class="o">~</span><span class="n">xenial</span><span class="o">+</span><span class="mi">1</span> <span class="p">(</span><span class="n">cli</span><span class="p">)</span> <span class="p">(</span> <span class="n">NTS</span> <span class="p">)</span>
+<span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">1997</span><span class="o">-</span><span class="mi">2016</span> <span class="n">The</span> <span class="n">PHP</span> <span class="n">Group</span>
+<span class="n">Zend</span> <span class="n">Engine</span> <span class="n">v3</span><span class="o">.</span><span class="mf">1.0</span><span class="o">-</span><span class="n">dev</span><span class="p">,</span> <span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">1998</span><span class="o">-</span><span class="mi">2016</span> <span class="n">Zend</span> <span class="n">Technologies</span>
+<span class="k">with</span> <span class="n">Zend</span> <span class="n">OPcache</span> <span class="n">v7</span><span class="o">.</span><span class="mf">1.0</span><span class="o">-</span><span class="mi">5</span><span class="o">+</span><span class="n">deb</span><span class="o">.</span><span class="n">sury</span><span class="o">.</span><span class="n">org</span><span class="o">~</span><span class="n">xenial</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">1999</span><span class="o">-</span><span class="mi">2016</span><span class="p">,</span> <span class="n">by</span> <span class="n">Zend</span> <span class="n">Technologies</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="ejabberd.html" title="previous chapter (use the left arrow)">Install eJabberd XMPP Server on Ubuntu 14</a>
+      </div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="multiple-php.html" title="next chapter (use the right arrow)">Switch between Multiple PHP Version on Ubuntu</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="multiple-php.html" title="Switch between Multiple PHP Version on Ubuntu"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ejabberd.html" title="Install eJabberd XMPP Server on Ubuntu 14"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2014, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

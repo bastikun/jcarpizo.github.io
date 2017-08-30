@@ -1,13 +1,23 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Install Sphinx Documentation &#8212; jcarpizo.github.io  documentation</title>
     
-    <link rel="stylesheet" href="_static/solar.css" type="text/css" />
+    <link rel="stylesheet" href="_static/guzzle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
@@ -23,14 +33,16 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Install eJabberd XMPP Server on Ubuntu 14" href="ejabberd.html" />
-    <link rel="prev" title="Doctrine Best Practices" href="doctrine.html" /><link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-<link href="_static/solarized-dark.css" rel="stylesheet">
+    <link rel="prev" title="Doctrine Best Practices" href="doctrine.html" />
+  
+   
+
   </head>
-  <body role="document">
+  <body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -46,47 +58,69 @@
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>
     </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Install Sphinx Documentation</a><ul>
-<li><a class="reference internal" href="#setting-up-the-documentation-sources">Setting up the documentation sources</a></li>
-<li><a class="reference internal" href="#running-the-build">Running the build</a></li>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar">
+        <a href="
+    index.html" class="text-logo">jcarpizo.github.io</a>
+        
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doctrine.html">Doctrine Best Practices</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Install Sphinx Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-the-documentation-sources">Setting up the documentation sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-build">Running the build</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
+<li class="toctree-l1"><a class="reference internal" href="php-install.html">Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiple-php.html">Switch between Multiple PHP Version on Ubuntu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="solid.html">SOLID Principles in PHP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-node.html">Installing Node.js via package manager</a></li>
 </ul>
 
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="doctrine.html"
-                        title="previous chapter">Doctrine Best Practices</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="ejabberd.html"
-                        title="next chapter">Install eJabberd XMPP Server on Ubuntu 14</a></p>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/sphinx.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
+    
+  </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+        
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
         </div>
-      </div>
-
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="index.html">Docs</a></li>
+              
+              <li>Install Sphinx Documentation</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
             
   <div class="section" id="install-sphinx-documentation">
 <h1>Install Sphinx Documentation<a class="headerlink" href="#install-sphinx-documentation" title="Permalink to this headline">¶</a></h1>
@@ -109,9 +143,21 @@
 
 
           </div>
-        </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="doctrine.html" title="previous chapter (use the left arrow)">Doctrine Best Practices</a>
       </div>
-      <div class="clearer"></div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="ejabberd.html" title="next chapter (use the right arrow)">Install eJabberd XMPP Server on Ubuntu 14</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
     </div>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
@@ -128,9 +174,14 @@
         <li class="nav-item nav-item-0"><a href="index.html">jcarpizo.github.io  documentation</a> &#187;</li> 
       </ul>
     </div>
-    <div class="footer">
-        &copy; Copyright 2014, Jasper Carpizo.
-    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5.2.Theme by <a href="http://github.com/vkvn">vkvn</a>
-    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2014, Jasper Carpizo. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
   </body>
 </html>
