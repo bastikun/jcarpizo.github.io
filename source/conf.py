@@ -49,8 +49,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'jcarpizo.github.io'
-copyright = u'2014, Jasper Carpizo'
+project = u'Jasper Carpizo'
+copyright = u'2017, Jasper Carpizo'
 author = u'Jasper Carpizo'
 
 # The version info for the project you're documenting, acts as replacement for
