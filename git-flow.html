@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Git Flow Integration &mdash; jcarpizo.github.io  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="jcarpizo.github.io  documentation" href="index.html"/>
+        <link rel="next" title="Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS" href="virtual-host.html"/>
+        <link rel="prev" title="SOLID Principles in PHP" href="solid.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> jcarpizo.github.io
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mac-php.html">Update PHP on Mac OS X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mac-mysql.html">Install MySQL on Mac OS X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doctrine.html">Doctrine Best Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sphinx.html">Install Sphinx Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ejabberd.html">Install eJabberd XMPP Server on Ubuntu 14</a></li>
+<li class="toctree-l1"><a class="reference internal" href="php-install.html">Install PHP 5.6 or PHP 7.1 on Ubuntu 16.04, 14.04 using PPA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiple-php.html">Switch between Multiple PHP Version on Ubuntu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="solid.html">SOLID Principles in PHP</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Git Flow Integration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting started</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#initialize">Initialize</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#features">Features</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#start-a-new-feature">Start a new feature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finish-up-a-feature">Finish up a feature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#publish-a-feature">Publish a feature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#getting-a-published-feature">Getting a published feature</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#make-a-release">Make a release</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#start-a-release">Start a release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finish-up-a-release">Finish up a release</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hotfixes">Hotfixes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#git-flow-hotfix-start">Git flow hotfix start</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finish-a-hotfix">Finish a hotfix</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="virtual-host.html">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-node.html">Installing Node.js via package manager</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">jcarpizo.github.io</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Git Flow Integration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/jcarpizo/jcarpizo.github.io/blob/master/source/git-flow.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="git-flow-integration">
+<h1>Git Flow Integration<a class="headerlink" href="#git-flow-integration" title="Permalink to this headline">¶</a></h1>
+<p>git-flow are a set of git extensions to provide high-level repository operations for Vincent Driessen’s branching mode</p>
+<p><strong>Git-flow is a merge based solution. It doesn’t rebase feature branches.</strong></p>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">git</span><span class="o">-</span><span class="n">flow</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getting-started">
+<h2>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>Git flow needs to be initialized in order to customize your project setup.</p>
+<div class="section" id="initialize">
+<h3>Initialize<a class="headerlink" href="#initialize" title="Permalink to this headline">¶</a></h3>
+<p>Start using git-flow by initializing it inside an existing git repository:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">init</span>
+</pre></div>
+</div>
+<p>You’ll have to answer a few questions regarding the naming conventions for your branches.
+It’s recommended to use the default values.</p>
+</div>
+</div>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<p><strong>Develop new features for upcoming releases</strong>
+<strong>Typically exist in developers repos only</strong></p>
+<div class="section" id="start-a-new-feature">
+<h3>Start a new feature<a class="headerlink" href="#start-a-new-feature" title="Permalink to this headline">¶</a></h3>
+<p>Development of new features starting from the ‘develop’ branch.</p>
+<p>Start developing a new feature with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">feature</span> <span class="n">start</span> <span class="n">MYFEATURE</span>
+</pre></div>
+</div>
+<p>This action creates a new feature branch based on ‘develop’ and switches to it</p>
+</div>
+<div class="section" id="finish-up-a-feature">
+<h3>Finish up a feature<a class="headerlink" href="#finish-up-a-feature" title="Permalink to this headline">¶</a></h3>
+<p>Finish the development of a feature. This action performs the following</p>
+<p><strong>Merges MYFEATURE into ‘develop’</strong>
+<strong>Removes the feature branch</strong>
+<strong>Switches back to ‘develop’ branch</strong></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">feature</span> <span class="n">finish</span> <span class="n">MYFEATURE</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="publish-a-feature">
+<h3>Publish a feature<a class="headerlink" href="#publish-a-feature" title="Permalink to this headline">¶</a></h3>
+<p>Are you developing a feature in collaboration?
+Publish a feature to the remote server so it can be used by other users.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">feature</span> <span class="n">publish</span> <span class="n">MYFEATURE</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getting-a-published-feature">
+<h3>Getting a published feature<a class="headerlink" href="#getting-a-published-feature" title="Permalink to this headline">¶</a></h3>
+<p>Get a feature published by another user.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">feature</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">MYFEATURE</span>
+</pre></div>
+</div>
+<p>You can track a feature on origin by using</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">using</span> <span class="n">git</span> <span class="n">flow</span> <span class="n">feature</span> <span class="n">track</span> <span class="n">MYFEATURE</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="make-a-release">
+<h2>Make a release<a class="headerlink" href="#make-a-release" title="Permalink to this headline">¶</a></h2>
+<p><strong>Support preparation of a new production release</strong>
+<strong>Allow for minor bug fixes and preparing meta-data for a release</strong></p>
+<div class="section" id="start-a-release">
+<h3>Start a release<a class="headerlink" href="#start-a-release" title="Permalink to this headline">¶</a></h3>
+<p>To start a release, use the git flow release command. It creates a release branch created from the ‘develop’ branch.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">release</span> <span class="n">start</span> <span class="n">RELEASE</span> <span class="p">[</span><span class="n">BASE</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>You can optionally supply a <strong>[BASE]</strong> commit sha-1 hash to start the release from. The commit must be on the ‘develop’ branch.</p>
+<p>It’s wise to publish the release branch after creating it to allow release commits by other developers. Do it similar to feature publishing with the command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">release</span> <span class="n">publish</span> <span class="n">RELEASE</span>
+</pre></div>
+</div>
+<p>(You can track a remote release with the command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">release</span> <span class="n">track</span> <span class="n">RELEASE</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="finish-up-a-release">
+<h3>Finish up a release<a class="headerlink" href="#finish-up-a-release" title="Permalink to this headline">¶</a></h3>
+<p>Finishing a release is one of the big steps in git branching. It performs several actions:</p>
+<p><strong>Merges the release branch back into ‘master’</strong>
+<strong>Tags the release with its name</strong>
+<strong>Back-merges the release into ‘develop’</strong>
+<strong>Removes the release branch</strong></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">release</span> <span class="n">finish</span> <span class="n">RELEASE</span>
+</pre></div>
+</div>
+<p>Don’t forget to push your tags with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">--</span><span class="n">tags</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="hotfixes">
+<h2>Hotfixes<a class="headerlink" href="#hotfixes" title="Permalink to this headline">¶</a></h2>
+<p><strong>Hotfixes arise from the necessity to act immediately upon an undesired state of a live production version</strong>
+<strong>May be branched off from the corresponding tag on the master branch that marks the production version.</strong></p>
+<div class="section" id="git-flow-hotfix-start">
+<h3>Git flow hotfix start<a class="headerlink" href="#git-flow-hotfix-start" title="Permalink to this headline">¶</a></h3>
+<p>Like the other git flow commands, a hotfix is started with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">hotfix</span> <span class="n">start</span> <span class="n">VERSION</span> <span class="p">[</span><span class="n">BASENAME</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>The version argument hereby marks the new hotfix release name. Optionally you can specify a basename to start from.</p>
+</div>
+<div class="section" id="finish-a-hotfix">
+<h3>Finish a hotfix<a class="headerlink" href="#finish-a-hotfix" title="Permalink to this headline">¶</a></h3>
+<p>By finishing a hotfix it gets merged back into develop and master. Additionally the master merge is tagged with the hotfix version.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">flow</span> <span class="n">hotfix</span> <span class="n">finish</span> <span class="n">VERSION</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="virtual-host.html" class="btn btn-neutral float-right" title="Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="solid.html" class="btn btn-neutral" title="SOLID Principles in PHP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Jasper Carpizo.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

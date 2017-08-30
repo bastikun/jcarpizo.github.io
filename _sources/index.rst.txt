@@ -21,6 +21,7 @@ My Dev Skills
    * eJabberd XMPP Server
    * Bitbuket with Pipeline Build Integration
    * GitLab with Gitlab CI integration
+   * Git with Git Flow Integration
    * MS SQL Enterprise
    * MySQL with MySql Workbench and Sequel Pro
    * Postgre SQL
@@ -43,5 +44,6 @@ My Dev Skills
    php-install
    multiple-php
    solid
+   git-flow
    virtual-host
    install-node
