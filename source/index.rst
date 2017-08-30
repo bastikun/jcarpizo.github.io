@@ -1,5 +1,5 @@
-[ Dev Online Documentation ]
-============================
+[ My Dev Online Documentation ]
+===============================
 
 .. toctree::
    :maxdepth: 2
