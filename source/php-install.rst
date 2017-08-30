@@ -9,22 +9,24 @@ Install PHP 5.6 on Ubuntu
 
 Use the following set of command to add PPA for PHP 5.6 in your Ubuntu system and install PHP 5.6.
 
+::
 
-``$ sudo apt-get install python-software-properties``
+    sudo apt-get install python-software-properties
 
-``$ sudo add-apt-repository ppa:ondrej/php``
+    sudo add-apt-repository ppa:ondrej/php
 
-``$ sudo apt-get update``
+    sudo apt-get update
 
-``$ sudo apt-get install -y php5.6``
+    sudo apt-get install -y php5.6
 
 
 Check Installed PHP Version:
 ----------------------------
 
-``$ php -v``
-
 ::
+
+
+    $ php -v
 
     PHP 5.6.29-1+deb.sury.org~xenial+1 (cli)
     Copyright (c) 1997-2016 The PHP Group
@@ -38,21 +40,24 @@ Install PHP 7.1 on Ubuntu
 
 Use the following set of command to add PPA for PHP 7.1 in your Ubuntu system and install PHP 7.1.
 
-``$ sudo apt-get install python-software-properties``
+::
 
-``$ sudo add-apt-repository ppa:ondrej/php``
+    sudo apt-get install python-software-properties
 
-``$ sudo apt-get update``
+    sudo add-apt-repository ppa:ondrej/php
 
-``$ sudo apt-get install -y php7.1``
+    sudo apt-get update
+
+    sudo apt-get install -y php7.1
 
 
 Check Installed PHP Version:
 ----------------------------
 
-``$ php -v``
 
 ::
+
+    $ php -v
 
     PHP 7.1.0-5+deb.sury.org~xenial+1 (cli) ( NTS )
     Copyright (c) 1997-2016 The PHP Group

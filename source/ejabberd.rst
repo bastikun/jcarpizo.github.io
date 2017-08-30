@@ -6,17 +6,23 @@ login to your droplet via SSH as root.
 Install eJabberd
 ----------------
 
-``sudo apt-get -y install ejabberd``
+::
+
+    sudo apt-get -y install ejabberd
 
 Setup Admin User
 ----------------
 
-``sudo ejabberdctl register admin localhost password``
+::
+
+    sudo ejabberdctl register admin localhost password
 
 Give Admin Privileges
 ---------------------
 
-``sudo subl /etc/ejabberd/ejabberd.cfg``
+::
+
+    sudo subl /etc/ejabberd/ejabberd.cfg
 
 ::
 
@@ -29,16 +35,22 @@ Give Admin Privileges
 Change Admin Password
 ---------------------
 
-``sudo ejabberdctl change_password admin localhost iFPQzkH5PF1Yl3V3``
+::
+
+    sudo ejabberdctl change_password admin localhost iFPQzkH5PF1Yl3V3
 
 Restart eJabberd
 ----------------
 
-``sudo service ejabberd restart``
+::
+
+    sudo service ejabberd restart
 
 Now you can navigate to your eJabberd Web Admin interface on droplet's IP address port 5280
 
-``http://198.199.90.115:5280/admin``
+::
+
+    http://198.199.90.115:5280/admin
 
 Enable the multi user chat history
 ----------------------------------
@@ -72,7 +84,9 @@ Enable the multi user chat history
 Enable the host name
 --------------------
 
-``sudo subl /etc/hosts``
+::
+
+    sudo subl /etc/hosts
 
 ::
 

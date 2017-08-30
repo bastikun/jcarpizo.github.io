@@ -7,11 +7,15 @@ Create Virtual Host File
 
 Start by copying the file for the first domain:
 
-``sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf``
+::
+
+    sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
 
 Open the new file in your editor with root privileges:
 
-``sudo nano /etc/apache2/sites-available/example.com.conf``
+::
+
+    sudo nano /etc/apache2/sites-available/example.com.conf
 
 The file will look something like this (I've removed the comments here to make the file more approachable): ::
 
@@ -59,11 +63,15 @@ Enable the Virtual Host Files
 
 We can use the a2ensite tool to enable each of our sites like this:
 
-``sudo a2ensite example.com.conf``
+::
+
+    sudo a2ensite example.com.conf
 
 When you are finished, you need to restart Apache to make these changes take effect:
 
-``sudo service apache2 restart``
+::
+
+    sudo service apache2 restart
 
 =======================
 Set Up Local Hosts File
@@ -71,7 +79,9 @@ Set Up Local Hosts File
 
 If you are on a Mac or Linux computer, edit your local file with administrative privileges by typing:
 
-``sudo nano /etc/hosts``
+::
+
+    sudo nano /etc/hosts
 
 If you are on a Windows machine, you can find instructions on altering your hosts file here.
 
