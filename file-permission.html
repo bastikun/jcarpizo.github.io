@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; Jasper Carpizo  documentation</title>
+  <title>Unix / Linux File permissions &mdash; Jasper Carpizo  documentation</title>
   
 
   
@@ -34,9 +33,10 @@
 
   
         <link rel="index" title="Index"
-              href="#"/>
+              href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Jasper Carpizo  documentation" href="index.html"/> 
+    <link rel="top" title="Jasper Carpizo  documentation" href="index.html"/>
+        <link rel="prev" title="Installing Node.js via package manager" href="install-node.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -86,7 +86,7 @@
             
             
               <p class="caption"><span class="caption-text">DevDocs</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lamp.html">Install LAMP in one command</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mac-php.html">Update PHP on Mac OS X</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mac-mysql.html">Install MySQL on Mac OS X</a></li>
@@ -99,7 +99,10 @@
 <li class="toctree-l1"><a class="reference internal" href="git-flow.html">Git Flow Integration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="virtual-host.html">Set Up Apache Virtual Hosts on Ubuntu 16.04 LTS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="install-node.html">Installing Node.js via package manager</a></li>
-<li class="toctree-l1"><a class="reference internal" href="file-permission.html">Unix / Linux File permissions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Unix / Linux File permissions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#detecting-file-permissions">Detecting File Permissions</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -144,14 +147,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Index</li>
+      <li>Unix / Linux File permissions</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/jcarpizo/jcarpizo.github.io/blob/master/source/genindex" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/jcarpizo/jcarpizo.github.io/blob/master/source/file-permission.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -165,11 +168,69 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="unix-linux-file-permissions">
+<h1>Unix / Linux File permissions<a class="headerlink" href="#unix-linux-file-permissions" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<div class="last line-block">
+<div class="line">Use the chmod command to set file permissions.</div>
+<div class="line">The chmod command uses a three-digit code as an argument.</div>
+<div class="line">The three digits of the chmod code set permissions for these groups in this order:</div>
+</div>
+</div>
+<ol class="arabic simple">
+<li>Owner (you)</li>
+<li>Group (a group of other users that you set up)</li>
+<li>World (anyone else browsing around on the file system)</li>
+</ol>
+<p>Each digit of this code sets permissions for one of these groups as follows. Read is 4. Write is 2. Execute is 1.</p>
+<p>The sums of these numbers give combinations of these permissions:</p>
+<ul class="simple">
+<li><strong>0</strong> = <em>no permissions whatsoever; this person cannot read, write, or execute the file</em></li>
+<li><strong>1</strong> = <em>execute only</em></li>
+<li><strong>2</strong> = <em>write only</em></li>
+<li><strong>3</strong> = <em>write and execute</em> <code class="docutils literal"><span class="pre">(1+2)</span></code></li>
+<li><strong>4</strong> = <em>read only</em></li>
+<li><strong>5</strong> = <em>read and execute</em> <code class="docutils literal"><span class="pre">(4+1)</span></code></li>
+<li><strong>6</strong> = <em>read and write</em> <code class="docutils literal"><span class="pre">(4+2)</span></code></li>
+<li><strong>7</strong> = <em>read and write and execute</em> <code class="docutils literal"><span class="pre">(4+2+1)</span></code></li>
+</ul>
+<p>Chmod commands on file apple.txt (use wildcards to include more files)</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="79%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Command</th>
+<th class="head">Purpose</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>chmod 700 apple.txt</td>
+<td>Only you can read, write to, or execute apple.txt</td>
+</tr>
+<tr class="row-odd"><td>chmod 777 apple.txt</td>
+<td>Everybody can read, write to, or execute apple.txt</td>
+</tr>
+<tr class="row-even"><td>chmod 744 apple.txt</td>
+<td>Only you can read, write to, or execute apple.txt Everybody can read apple.txt;</td>
+</tr>
+<tr class="row-odd"><td>chmod 444 apple.txt</td>
+<td>You can only read apple.txt, as everyone else.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="detecting-file-permissions">
+<h2>Detecting File Permissions<a class="headerlink" href="#detecting-file-permissions" title="Permalink to this headline">¶</a></h2>
+<p>You can use the ls command with the -l option to show the file permissions set. For example, for apple.txt, I can do this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ls -l apple.txt
+-rwxr--r--   1 december december       81 Feb 12 12:45 apple.txt
+$
+</pre></div>
+</div>
+<p>The sequence -rwxr–r– tells the permissions set for the file apple.txt. The first - tells that apple.txt is a file. The next three letters, rwx, show that the owner has read, write, and execute permissions. Then the next three symbols, r–, show that the group permissions are read only. The final three symbols, r–, show that the world permissions are read only.</p>
+</div>
 </div>
 
 
@@ -179,6 +240,13 @@
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="install-node.html" class="btn btn-neutral" title="Installing Node.js via package manager" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

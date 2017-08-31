@@ -52,3 +52,4 @@
    git-flow
    virtual-host
    install-node
+   file-permission
