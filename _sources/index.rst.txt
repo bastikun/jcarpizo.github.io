@@ -1,5 +1,5 @@
-Dev Skills
-==========
+*Dev Skills*
+============
 
 * PHP 5.4.15+ with PHP Unit testing - Object Oriented Programming in PHP / RESTful API’s
 * PHP Code Sniffer for checking coding compliance / PSR-2 standard coding style
@@ -36,7 +36,7 @@ Dev Skills
 
 
 .. toctree::
-   :caption: My Dev Online Documentation
+   :caption: DevDocs
    :hidden:
    :maxdepth: 2
 
