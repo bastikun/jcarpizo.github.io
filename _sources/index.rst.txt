@@ -3,7 +3,7 @@
 
 * PHP 5.4.15+ with PHP Unit testing - Object Oriented Programming in PHP / RESTful API’s
 * PHP Code Sniffer for checking coding compliance / PSR-2 standard coding style
-* MVC PHP Framework – **Symfony** , Laravel and Phalcon
+* MVC PHP Framework – **Symfony , Laravel and Phalcon**
 * Guzzle, PHP HTTP Client
 * Auth0's API authorization
 * Google API and Facebook API Integration
@@ -19,7 +19,6 @@
 * Python 2.7.10
 * Highcharts JS
 * Node JS, React JS, Vue JS, JQuery, and Navtive Javascript
-* SPHINX - Python Documentation Generator
 * eJabberd XMPP Server
 * Bitbuket with Pipeline Build Integration
 * GitLab with Gitlab CI integration
@@ -33,7 +32,10 @@
 * Windows XP, Vista, 7 and 8
 * VMware Server / Virtual Box / Homestead
 * HTML5, CSS and SASS
+* SPHINX - Python Documentation Generator
+   * Sample API docs for mobile dev -  `Leaders Summit API Docs`_.
 
+  .. _Leaders Summit API Docs: leaders-summit.digitalventures.ph
 
 .. toctree::
    :caption: DevDocs

@@ -29,13 +29,13 @@ Chmod commands on file apple.txt (use wildcards to include more files)
 +---------------------+---------------------------------------------------------------------------------+
 | Command             |Purpose                                                                          |
 +=====================+=================================================================================+
-|chmod 700 apple.txt  | Only you can read, write to, or execute apple.txt                               |
+| chmod 700 apple.txt | Only you can read, write to, or execute apple.txt                               |
 +---------------------+---------------------------------------------------------------------------------+
-|chmod 777 apple.txt  | Everybody can read, write to, or execute apple.txt                              |
+| chmod 777 apple.txt | Everybody can read, write to, or execute apple.txt                              |
 +---------------------+---------------------------------------------------------------------------------+
-|chmod 744 apple.txt  | Only you can read, write to, or execute apple.txt Everybody can read apple.txt; |
+| chmod 744 apple.txt | Only you can read, write to, or execute apple.txt Everybody can read apple.txt; |
 +---------------------+---------------------------------------------------------------------------------+
-|chmod 444 apple.txt  | You can only read apple.txt, as everyone else.                                  |
+| chmod 444 apple.txt | You can only read apple.txt, as everyone else.                                  |
 +---------------------+---------------------------------------------------------------------------------+
 
 ==========================
