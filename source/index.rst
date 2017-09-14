@@ -3,7 +3,8 @@
 
 * PHP 5.4.15+ with PHP Unit testing - Object Oriented Programming in PHP / RESTful API’s
 * PHP Code Sniffer for checking coding compliance / PSR-2 standard coding style
-* MVC PHP Framework – **Symfony , Laravel and Phalcon**
+* MVC PHP Framework – **Symfony , Laravel, CakePHP and Phalcon**
+* Docker Engine / Docker Hub
 * Guzzle, PHP HTTP Client
 * Auth0's API authorization
 * Google API and Facebook API Integration
