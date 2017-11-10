@@ -56,3 +56,4 @@
    virtual-host
    install-node
    file-permission
+   docker
