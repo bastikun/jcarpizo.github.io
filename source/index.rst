@@ -58,3 +58,4 @@
    file-permission
    mysql
    docker
+   git

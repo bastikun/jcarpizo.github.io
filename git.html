@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Docker Training &mdash; Jasper Carpizo  documentation</title>
+  <title>Git Training &mdash; Jasper Carpizo  documentation</title>
   
 
   
@@ -36,8 +36,7 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="Jasper Carpizo  documentation" href="index.html"/>
-        <link rel="next" title="Git Training" href="git.html"/>
-        <link rel="prev" title="Getting the Best MySQL Performance in Your Products" href="mysql.html"/> 
+        <link rel="prev" title="Docker Training" href="docker.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -102,13 +101,16 @@
 <li class="toctree-l1"><a class="reference internal" href="install-node.html">Installing Node.js via package manager</a></li>
 <li class="toctree-l1"><a class="reference internal" href="file-permission.html">Unix / Linux File permissions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mysql.html">Getting the Best MySQL Performance in Your Products</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Docker Training</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#introduction-to-docker">Introduction to Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#docker-fundamentals">Docker Fundamentals</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#docker-operations">Docker Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker.html">Docker Training</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Git Training</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#command-line-fundamentals">Command-Line Fundamentals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fixing-common-mistakes-and-undoing-bad-commits">Fixing Common Mistakes and Undoing Bad Commits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-the-stash-command">Using the Stash Command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diff-and-merge-tools">Diff and Merge Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#change-diffmerge-font-size-on-mac-osx">Change DiffMerge Font-Size on Mac OSX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#difference-between-add-a-add-u-add-and-add">Difference between “add -A”, “add -u”, “add .”, and “add *”</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="git.html">Git Training</a></li>
 </ul>
 
             
@@ -153,14 +155,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Docker Training</li>
+      <li>Git Training</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/jcarpizo/jcarpizo.github.io/blob/master/source/docker.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/jcarpizo/jcarpizo.github.io/blob/master/source/git.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -174,25 +176,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="docker-training">
-<h1>Docker Training<a class="headerlink" href="#docker-training" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="introduction-to-docker">
-<h2>Introduction to Docker<a class="headerlink" href="#introduction-to-docker" title="Permalink to this headline">¶</a></h2>
-<p>This course covers the foundations of the Docker platform, including an overview of the platform components, images, containers and repositories.</p>
+  <div class="section" id="git-training">
+<h1>Git Training<a class="headerlink" href="#git-training" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="command-line-fundamentals">
+<h2>Command-Line Fundamentals<a class="headerlink" href="#command-line-fundamentals" title="Permalink to this headline">¶</a></h2>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-    <iframe src="https://www.youtube.com/embed/zV1sckmhX8s" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    <iframe src="https://www.youtube.com/embed/HVsySz-h9r4?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div><br/><br/></div>
-<div class="section" id="docker-fundamentals">
-<h2>Docker Fundamentals<a class="headerlink" href="#docker-fundamentals" title="Permalink to this headline">¶</a></h2>
-<p>This course provides hands-on instruction for getting started using Docker. This includes how to create Dockerfiles, build, manage and distribute Docker images and configure Containers. An example of Docker in Continuous Integration is also included</p>
- <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-    <iframe src="https://www.youtube.com/embed/2l74pg--5As" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div><br/><br/></div>
-<div class="section" id="docker-operations">
-<h2>Docker Operations<a class="headerlink" href="#docker-operations" title="Permalink to this headline">¶</a></h2>
-<p>This course covers topics to help you operate a Dockerized application environment. From understanding Docker Orchestration with Machine, Swarm and Compose, to security best practices and troubleshooting Docker containers. Private repository and registry concepts are also explained in this course.</p>
+<div class="section" id="fixing-common-mistakes-and-undoing-bad-commits">
+<h2>Fixing Common Mistakes and Undoing Bad Commits<a class="headerlink" href="#fixing-common-mistakes-and-undoing-bad-commits" title="Permalink to this headline">¶</a></h2>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-    <iframe src="https://www.youtube.com/embed/qn62xrGD9s8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    <iframe src="https://www.youtube.com/embed/FdZecVxzJbk?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div><br/><br/></div>
+<div class="section" id="using-the-stash-command">
+<h2>Using the Stash Command<a class="headerlink" href="#using-the-stash-command" title="Permalink to this headline">¶</a></h2>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://www.youtube.com/embed/KLEDKgMmbBI?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div><br/><br/></div>
+<div class="section" id="diff-and-merge-tools">
+<h2>Diff and Merge Tools<a class="headerlink" href="#diff-and-merge-tools" title="Permalink to this headline">¶</a></h2>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://www.youtube.com/embed/iCGrKFH2oeo?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div><br/><br/></div>
+<div class="section" id="change-diffmerge-font-size-on-mac-osx">
+<h2>Change DiffMerge Font-Size on Mac OSX<a class="headerlink" href="#change-diffmerge-font-size-on-mac-osx" title="Permalink to this headline">¶</a></h2>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://www.youtube.com/embed/kjBA2WISteM?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div><br/><br/></div>
+<div class="section" id="difference-between-add-a-add-u-add-and-add">
+<h2>Difference between “add -A”, “add -u”, “add .”, and “add <a href="#id1"><span class="problematic" id="id2">*</span></a>”<a class="headerlink" href="#difference-between-add-a-add-u-add-and-add" title="Permalink to this headline">¶</a></h2>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://www.youtube.com/embed/tcd4txbTtAY?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div><br/><br/></div>
 </div>
 
@@ -206,10 +220,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="git.html" class="btn btn-neutral float-right" title="Git Training" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="mysql.html" class="btn btn-neutral" title="Getting the Best MySQL Performance in Your Products" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="docker.html" class="btn btn-neutral" title="Docker Training" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
