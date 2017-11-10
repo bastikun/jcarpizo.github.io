@@ -8,7 +8,10 @@ This course covers the foundations of the Docker platform, including an overview
 
 .. raw:: html
 
-    <iframe width="100%" height="380" src="https://www.youtube.com/embed/zV1sckmhX8s" frameborder="0" gesture="media" allowfullscreen></iframe><br/><br/>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/zV1sckmhX8s" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div><br/><br/>
+
 
 Docker Fundamentals
 -------------------
@@ -17,7 +20,9 @@ This course provides hands-on instruction for getting started using Docker. This
 
 .. raw:: html
 
-   <iframe width="100%" height="380" src="https://www.youtube.com/embed/2l74pg--5As" frameborder="0" gesture="media" allowfullscreen></iframe><br/><br/>
+     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/2l74pg--5As" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div><br/><br/>
 
 
 Docker Operations
@@ -27,4 +32,6 @@ This course covers topics to help you operate a Dockerized application environme
 
 .. raw:: html
 
-    <iframe width="100%" height="380" src="https://www.youtube.com/embed/qn62xrGD9s8" frameborder="0" gesture="media" allowfullscreen></iframe>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/qn62xrGD9s8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div><br/><br/>

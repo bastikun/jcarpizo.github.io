@@ -56,4 +56,5 @@
    virtual-host
    install-node
    file-permission
+   mysql
    docker

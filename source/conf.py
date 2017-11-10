@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Code and Script documentation build configuration file, created by
-# sphinx-quickstart on Sat Feb  4 21:20:02 2017.
+# sphinx-quickstart on Sat Feb  4 21:20:02 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -50,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Jasper Carpizo'
-copyright = u'2017, Jasper Carpizo'
+copyright = u'2014, Jasper Carpizo'
 author = u'Jasper Carpizo'
 
 # The version info for the project you're documenting, acts as replacement for
