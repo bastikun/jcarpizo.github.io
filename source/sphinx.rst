@@ -29,3 +29,17 @@ Running the build
 Reference: `Sphinx documentation contents`_
 
 .. _Sphinx documentation contents: http://www.sphinx-doc.org/en/1.5.1/contents.html
+
+
+.. meta::
+    :description: My Online Technical Docs
+    :keywords: PHP, MySQL, Git, Laravel, Symfony, Composer, HTML5, JavaScript, Phalcon, CakePHP, Java, Unix Shell Scripting, Node Js, CSS, eJabberd XMPP Server, SPHINX - Python Documentation Generator, Docker
+    :author: Jasper Carpizo
+
+.. raw:: html
+
+   <meta property="og:image" content="jcarpizo.jpg"/>
+   <meta property="og:title" content="My Online Technical Docs"/>
+   <meta property="og:site_name" content="Jasper Carpizo"/>
+   <meta property="og:url" content="https://jcarpizo.github.io"/>
+   <meta property="og:type" content="blog"/>

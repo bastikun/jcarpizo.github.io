@@ -51,3 +51,16 @@ You can use the ls command with the -l option to show the file permissions set. 
     $
 
 The sequence -rwxr--r-- tells the permissions set for the file apple.txt. The first - tells that apple.txt is a file. The next three letters, rwx, show that the owner has read, write, and execute permissions. Then the next three symbols, r--, show that the group permissions are read only. The final three symbols, r--, show that the world permissions are read only.
+
+.. meta::
+    :description: My Online Technical Docs
+    :keywords: PHP, MySQL, Git, Laravel, Symfony, Composer, HTML5, JavaScript, Phalcon, CakePHP, Java, Unix Shell Scripting, Node Js, CSS, eJabberd XMPP Server, SPHINX - Python Documentation Generator, Docker
+    :author: Jasper Carpizo
+
+.. raw:: html
+
+   <meta property="og:image" content="jcarpizo.jpg"/>
+   <meta property="og:title" content="My Online Technical Docs"/>
+   <meta property="og:site_name" content="Jasper Carpizo"/>
+   <meta property="og:url" content="https://jcarpizo.github.io"/>
+   <meta property="og:type" content="blog"/>

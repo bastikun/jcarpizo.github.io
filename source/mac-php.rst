@@ -65,3 +65,15 @@ That’s it!
 Now you’ll just need to review your PHP code to ensure it’s compatible with your newly installed PHP version. And for that, I recommend PHP Shift.
 
 
+.. meta::
+    :description: My Online Technical Docs
+    :keywords: PHP, MySQL, Git, Laravel, Symfony, Composer, HTML5, JavaScript, Phalcon, CakePHP, Java, Unix Shell Scripting, Node Js, CSS, eJabberd XMPP Server, SPHINX - Python Documentation Generator, Docker
+        :author: Jasper Carpizo
+
+.. raw:: html
+
+   <meta property="og:image" content="jcarpizo.jpg"/>
+   <meta property="og:title" content="My Online Technical Docs"/>
+   <meta property="og:site_name" content="Jasper Carpizo"/>
+   <meta property="og:url" content="https://jcarpizo.github.io"/>
+   <meta property="og:type" content="blog"/>
